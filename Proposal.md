@@ -10,9 +10,12 @@
 
 ## Security needs
 - What security user expects
+- How is the users financial information encrypted. 
 - Intended threat environment(s)
 
 ## Security features of Kodi
+- Hashed or encrypted
+- What 802.11 protocol is used
 
 ## Motivation in selecting Kodi
 - Test commit
