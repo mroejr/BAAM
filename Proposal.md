@@ -15,6 +15,7 @@
 ## Security features of Kodi
 
 ## Motivation in selecting Kodi
+- Test commit
 
 ## Open Source Description
 - What is it? 
