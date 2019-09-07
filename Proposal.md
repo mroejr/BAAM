@@ -27,7 +27,7 @@
 - Documentation sources
 - etc.
 
-## Securiyt-related history
+## Security-related history
 - Known vulnerabilities
 - Security related engineering decisions
 - Security feature additions/removal
