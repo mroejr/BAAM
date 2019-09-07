@@ -10,5 +10,5 @@ This repository is for a team project for a graduate course CYBR 8420 Softwear A
 ## Contributing/Code use
 If you’re interested in contributing to the project. 
 Please review our: 
-- [License](#license)
-- [Contributors](#contributors)
+- [License](https://github.com/mroejr/BAAM/blob/master/LICENSE)
+- [Contributors](https://github.com/mroejr/BAAM/blob/master/Contributors)
