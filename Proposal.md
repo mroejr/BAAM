@@ -1,17 +1,18 @@
 # Kodi Project Proposal
 
-
 ## Operational Environment
 
 - Home use
 - or
 - bar setting?  
+- Maybe hotel setting? TVs in each rented space?
 (Pick Environment and explain intended use)
 
 ## Security needs
 
 - What security user expects
 - How is the users financial information encrypted?
+- How is the user's privacy protected?
 - Intended threat environment(s)
 
 ## Security features of Kodi
@@ -25,7 +26,7 @@ Cable/Satellite services for Television broadcasting has been in a decline since
 
 Kodi is an open-source entertainment hub that is customizable and available on various devices and operating systems. This includes Microsoft Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi. Kodi uses a lot when it comes to streaming from added-on streaming apps (i.e. Netflix and Hulu), a media server, live-TV apps, etc. However, with the variety of uses on Kodi, there are diverse point of security that should be considered. How is financial information secured if the user has a paid subscription to Netflix? Is any data collected from the user's streaming/viewing habits? How is information communicated when using the Internet for various tasks? These are the types of questions the project members would want to investigate further and look for any flaws.
 
-## Open Source Description
+## Open Source Description of Kodi
 
 - Kodi is an open-source entertainment hub
   - A media player than can refer to a media server for playing music, movies, TV shows, etc.
@@ -42,7 +43,6 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 - Platform(s)
   - Available on different operating systems and hardware platforms including: Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi
 - Documentation sources
-- etc.
 
 ## Security-related history
 
