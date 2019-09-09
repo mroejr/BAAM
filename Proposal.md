@@ -27,13 +27,20 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 
 ## Open Source Description
 
-- What is it?
-- Contributors
+- Kodi is an open-source entertainment hub
+  - A media player than can refer to a media server for playing music, movies, TV shows, etc.
+  - Features Add-ons to add to the entertainment hub
+    - Music (Radio apps, Apple iTunes podcasts, etc.), Photo (iPhoto, OneDrive, etc.) and others
+  - Installing streaming apps such as Netflix and Hulu are possible, but the process of installing streaming apps is dependent on the type of hardware/operating system Kodi is installed
+- 600+ contributors to the GitHub
 - Activity
 - Use
 - Popularity
 - Languages used
-- Platform
+  - C++ (88.0%), C (2.6%), and JavaScript (2.5%)
+  - Other languages used but in significantly smaller proportions
+- Platform(s)
+  - Available on different operating systems and hardware platforms including: Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi
 - Documentation sources
 - etc.
 
