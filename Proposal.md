@@ -3,7 +3,6 @@
 ## Operational Environment
 
 - Home use
-- or
 - bar setting?  
 - Maybe hotel setting? TVs in each rented space?
 (Pick Environment and explain intended use)
