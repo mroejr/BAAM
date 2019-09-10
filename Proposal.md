@@ -50,6 +50,8 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 - Platform(s)
   - Available on different operating systems and hardware platforms including: Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi
 - Documentation sources
+  - [GitHub](https://github.com/xbmc/xbmc/blob/master/README.md)
+  - Kodi [Wiki](https://kodi.wiki/view/Main_Page) page
 
 ## Security-related history
 
