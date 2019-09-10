@@ -2,10 +2,7 @@
 
 ## Operational Environment
 
-- Home use
-- bar setting?  
-- Maybe hotel setting? TVs in each rented space?
-(Pick Environment and explain intended use)
+The environment this project chooses to focus on is a home environment. The software would be used for personal use. A simple hardware device (Windows, Mac, Raspberry Pi) would have Kodi installed.
 
 ## Security needs
 
