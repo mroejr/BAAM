@@ -6,6 +6,16 @@ The environment this project chooses to focus on is a home environment. The soft
 
 ## Security needs
 
+- Typical use for home/personal use:
+  - User puts (owned) ripped DVDs on server to stream content on Kodi
+    - This server could be a plex server, but for scope reach prevention will not be looked into further
+  - User adds streaming apps via add-ons
+    - Cannot do this via Kodi directly
+    - User would need to use zip installer
+      - Example: To install Netflix, a user would need a Netflix zip folder and on Kodi software allow add-ons from unknown sources
+      - This could be a threat environment, but more on the fault of the user, not Kodi
+    - When using streaming apps such as Netflix and Hulu, a user would expect their login/password information, financial information used on the app, and their privacy/viewing habits to be protected
+  
 - What security user expects
 - How is the users financial information encrypted?
 - How is the user's privacy protected?
