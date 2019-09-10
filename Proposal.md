@@ -2,7 +2,7 @@
 
 ## Operational Environment
 
-The environment this project chooses to focus on is a home environment. The software would be used for personal use. A simple hardware device (Windows, Mac, Raspberry Pi) would have Kodi installed.
+The environment this project chooses to focus on is a home environment. The software would be used for personal use. 
 
 ## Security needs
 
