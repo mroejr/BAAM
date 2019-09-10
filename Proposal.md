@@ -39,10 +39,11 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - Features Add-ons to add to the entertainment hub
     - Music (Radio apps, Apple iTunes podcasts, etc.), Photo (iPhoto, OneDrive, etc.) and others
   - Installing streaming apps such as Netflix and Hulu are possible, but the process of installing streaming apps is dependent on the type of hardware/operating system Kodi is installed
+  - Kodi is legal when used for its intended purposes
 - 600+ contributors to the GitHub
 - Activity
-- Use
 - Popularity
+  - Statistics on the number of downloads or users is unavailable, but Kodi is talked about in present time on popular journal sites such as [PCMag](https://www.pcmag.com/article/357106/what-is-kodi) and [Express](https://www.express.co.uk/life-style/science-technology/943451/Kodi-Add-On-Arrest-Fine-Popular)
 - Languages used
   - C++ (88.0%), C (2.6%), and JavaScript (2.5%)
   - Other languages used but in significantly smaller proportions
