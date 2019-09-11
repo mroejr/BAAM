@@ -14,8 +14,6 @@ _Note: The security needs listed here is under the presumption that Kodi will be
 - Secure communication
   - If a user is using a personal media server, such as Plex server, to stream content to their Kodi software, it is expected to have a secure communication channel
 
-
-
 ## Security features of Kodi
 
 - Hashed or encrypted
@@ -70,3 +68,5 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 - Known vulnerabilities
 - Security related engineering decisions
 - Security feature additions/removal
+
+
