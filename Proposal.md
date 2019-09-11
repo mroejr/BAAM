@@ -67,10 +67,6 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 
 ## Security-related history
 
-- The Kodi project is actively maintained as can been seen in the activity section. From what we were able to find there have been three showing on CVEdetails.com. The most recent reported was from April 18, 2018 and is stated to be a persistent XSS vulnerability in Kodi through 17.6. This vulnerability allows execution of HTML/script code via the playlist. Most of the CVE vulnerabilities have to deal with XSS, Directory Traversal and DoS. I found 4 CVE vulnerabilities with KODI and 7 with XBMC which is was it was formerly called. 
-
-- Known vulnerabilities
-- Security related engineering decisions
-- Security feature additions/removal
+The Kodi project is actively maintained as can been seen in the activity section. From what we were able to find there have been three documented vulnerabilites for Kodi showing on CVEdetails.com. The most recent reported was from 04/18/18 (CVE-2018-8831) and is stated to be a persistent XSS vulnerability in Kodi through 17.6. This vulnerability allows execution of HTML/script code via the playlist. There were two other recent CVE, one on 02/28/2017 (CVE-2017-5982) for directory traversal in the Chorus2 2.4.2 add-on for Kodi and the other on 05/23/2017 (CVE-2017-8314), also for directory traversal, in the built-in Zip Extraction function in Kodi 17.1. Most of the CVE vulnerabilities have to deal with XSS, Directory Traversal and DoS. I found 4 CVE vulnerabilities with KODI and 7 with XBMC which is was it was formerly called. 
 
 
