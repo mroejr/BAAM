@@ -18,9 +18,9 @@ _Note: The security needs listed here is under the presumption that Kodi will be
 
 - The use of checksum to verify any code changes. 
 - Event logs are only retained for the curent session.
-- Has a clear Banned list for Add-ons. 
-- The user is able to have a NAS to hold purchased video and audio data.
-- Kodi asks its users to participate in any data collection.
+- Has a clear [Banned](https://kodi.wiki/view/Official:Forum_rules/Banned_add-ons#top) list for Add-ons. 
+- The user is able to have a [NAS](https://kodi.wiki/view/NAS) to hold purchased video and audio data.
+- Kodi asks its users to [participate](https://github.com/xbmc/xbmc/blob/master/privacy-policy.txt) in any data collection.
 - Kodi uses [JSON-RPC API](https://www.jsonrpc.org/specification) for data communication.
 
 ## Motivation Behind Kodi
