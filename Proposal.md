@@ -5,21 +5,16 @@
 The environment this project chooses to focus on is a home environment. The software would be used for personal use. 
 
 ## Security needs
+_Note: The security needs listed here is under the presumption that Kodi will be used as intended without 3rd party add-ons, pirated content, or any other illegal uses._
+- Privacy
+  - User's streaming habits should not be shared without the User's permission or consent
+- Secure add-ons
+  - Add-ons should be legitimate and without malicious content
+  - Add-ons should be regularly updated
+- Secure communication
+  - If a user is using a personal media server, such as Plex server, to stream content to their Kodi software, it is expected to have a secure communication channel
 
-- Typical use for home/personal use:
-  - User puts (owned) ripped DVDs on server to stream content on Kodi
-    - This server could be a plex server, but for scope reach prevention will not be looked into further
-  - User adds streaming apps via add-ons
-    - Cannot do this via Kodi directly
-    - User would need to use zip installer
-      - Example: To install Netflix, a user would need a Netflix zip folder and on Kodi software allow add-ons from unknown sources
-      - This could be a threat environment, but more on the fault of the user, not Kodi
-    - When using streaming apps such as Netflix and Hulu, a user would expect their login/password information, financial information used on the app, and their privacy/viewing habits to be protected
-  
-- What security user expects
-- How is the users financial information encrypted?
-- How is the user's privacy protected?
-- Intended threat environment(s)
+
 
 ## Security features of Kodi
 
@@ -40,7 +35,6 @@ Kodi is an open-source entertainment hub that is customizable and available on v
     - Music (Radio apps, Apple iTunes podcasts, etc.), Photo (iPhoto, OneDrive, etc.) and others
   - Installing streaming apps such as Netflix and Hulu are possible, but the process of installing streaming apps is dependent on the type of hardware/operating system Kodi is installed
   - Kodi is legal when used for its intended purposes
-  
 - Activity
   - Contributors – 600+
   - Commits – 53,000+
