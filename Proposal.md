@@ -49,7 +49,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - Other languages used but in significantly smaller proportions
 - Platform(s)
   - Available on different operating systems and hardware platforms including: Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi
-- License
+## License
   - Kodi's licensed is under the [GNU General Public LIcense v2.0 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
   - The overall project of Kodi also contains files and code licensed under different licenses:
     - [BSD-3-Clause](https://github.com/xbmc/xbmc/blob/master/LICENSES/BSD-3-Clause)
@@ -59,7 +59,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
     - [LGPL-2.1-or-later](https://github.com/xbmc/xbmc/blob/master/LICENSES/LGPL-2.1-or-later)
     - [MIT](https://github.com/xbmc/xbmc/blob/master/LICENSES/MIT)
     - [Unlicense (Public Domain)](https://github.com/xbmc/xbmc/blob/master/LICENSES/Unlicense)
-- How to Contribute 
+## How to Contribute 
   - coding
     - Fixing bugs
     - Adding features
