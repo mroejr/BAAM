@@ -30,7 +30,6 @@ Cable/Satellite services for Television broadcasting has been in a decline since
 Kodi is an open-source entertainment hub that is customizable and available on various devices and operating systems. This includes Microsoft Windows, Apple OSX and iOS, Android, Linux, and Raspberry Pi. Kodi uses a lot when it comes to streaming from added-on streaming apps (i.e. Netflix and Hulu), a media server, live-TV apps, etc. However, with the variety of uses on Kodi, there are diverse point of security that should be considered. How is financial information secured if the user has a paid subscription to Netflix? Is any data collected from the user's streaming/viewing habits? How is information communicated when using the Internet for various tasks? These are the types of questions the project members would want to investigate further and look for any flaws.
 
 ## Open Source Description of Kodi
-
 - Kodi is an open-source entertainment hub
   - A media player than can refer to a media server for playing music, movies, TV shows, etc.
   - Features Add-ons to add to the entertainment hub
@@ -43,7 +42,6 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - Last commit – 09/09/2019
   - Most recent pull request 09/09/2019
   - Most recent issue opened 09/09/2019
-
 - Popularity
   - Statistics on the number of downloads or users is unavailable, but Kodi is talked about in present time on popular journal sites such as [PCMag](https://www.pcmag.com/article/357106/what-is-kodi) and [Express](https://www.express.co.uk/life-style/science-technology/943451/Kodi-Add-On-Arrest-Fine-Popular)
 - Languages used
@@ -61,6 +59,19 @@ Kodi is an open-source entertainment hub that is customizable and available on v
     - LGPL-2.1-or-later
     - MIT
     - Unlicense (Public Domain)
+- Contributing 
+  - coding
+    - Fixing bugs
+    - Adding features
+  - Helping Kodi users
+    - Answering questions in the [support forums](https://forum.kodi.tv/).
+    - Be supportive of new users.
+  - Localization
+    - Help translate Kodi into a native language.
+  - Add-ons
+    - Help code new [add-ons](https://kodi.tv/create-an-addon).
+  - Documentation
+    - Help with writing new content or correcting existing material.
 - Documentation sources
   - [GitHub](https://github.com/xbmc/xbmc/blob/master/README.md)
   - Kodi [Wiki](https://kodi.wiki/view/Main_Page) page
