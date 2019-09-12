@@ -83,7 +83,7 @@ The Kodi project is actively maintained as can been seen in the activity section
 
 ## Internal project tasks
 - The first 6 issues that the team collaborated on [BAAM](https://github.com/mroejr/BAAM/issues?q=is%3Aissue+is%3Aclosed).
-- The second [Milestone](https://github.com/mroejr/BAAM/milestone/2) is in place and has it's 5 issues ready to be assigned.
+- [Milestone 2](https://github.com/mroejr/BAAM/milestone/2) is in place and has it's 5 issues ready to be assigned.
 
 ### Documentation sources
   - [GitHub](https://github.com/xbmc/xbmc/blob/master/README.md)
