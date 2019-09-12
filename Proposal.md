@@ -18,7 +18,7 @@ _Note: The security needs listed here is under the presumption that Kodi will be
 
 - Code changes are verified with the use of [checksum](https://kodi.wiki/view/Creating_and_using_edid.bin_via_xorg.conf). 
 - Only keeps event logs for the curent session.
-- Makes users aware of [Banned](https://kodi.wiki/view/Official:Forum_rules/Banned_add-ons#top) Add-ons. 
+- Makes users aware of [Banned Add-ons](https://kodi.wiki/view/Official:Forum_rules/Banned_add-ons#top). 
 - Capable of using a [NAS](https://kodi.wiki/view/NAS) to hold video and audio data.
 - Kodi asks its users to [participate](https://github.com/xbmc/xbmc/blob/master/privacy-policy.txt) in any data collection.
 - Kodi uses [JSON-RPC API](https://www.jsonrpc.org/specification) for data communication.
@@ -52,13 +52,13 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 - License
   - Kodi's licensed is under the GNU General Public LIcense v2.0 or later
   - The overall project of Kodi also contains files and code licensed under different licenses:
-    - BSD-3-Clause
-    - BSD-4-Clause
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - LGPL-2.1-or-later
-    - MIT
-    - Unlicense (Public Domain)
+    - [BSD-3-Clause](https://github.com/xbmc/xbmc/blob/master/LICENSES/BSD-3-Clause)
+    - [BSD-4-Clause](https://github.com/xbmc/xbmc/blob/master/LICENSES/BSD-4-Clause)
+    - [GPL-2.0-only](https://github.com/xbmc/xbmc/blob/master/LICENSES/GPL-2.0-only)
+    - [GPL-2.0-or-later](https://github.com/xbmc/xbmc/blob/master/LICENSES/GPL-2.0-or-later)
+    - [LGPL-2.1-or-later](https://github.com/xbmc/xbmc/blob/master/LICENSES/LGPL-2.1-or-later)
+    - [MIT](https://github.com/xbmc/xbmc/blob/master/LICENSES/MIT)
+    - [Unlicense (Public Domain)](https://github.com/xbmc/xbmc/blob/master/LICENSES/Unlicense)
 - How to Contribute 
   - coding
     - Fixing bugs
