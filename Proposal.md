@@ -63,7 +63,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - coding
     - Fixing bugs
     - Adding features
-  - Helping Kodi users
+  - Helping Kodi
     - Answering questions in the [support forums](https://forum.kodi.tv/).
     - Be supportive of new users.
   - Localization
