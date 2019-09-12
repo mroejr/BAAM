@@ -59,7 +59,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
     - LGPL-2.1-or-later
     - MIT
     - Unlicense (Public Domain)
-- Contributing 
+- How to Contribute 
   - coding
     - Fixing bugs
     - Adding features
