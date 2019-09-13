@@ -73,14 +73,14 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - Documentation
     - Help with writing new content or correcting existing material.
 ## Contributor agreement
-  - Follow our code guidelines 
+  - Follow our [code guidelines](https://github.com/xbmc/xbmc/blob/master/docs/CODE_GUIDELINES.md) 
     - New code should follow those guidelines even if existing code doesn't. If you improve existing code, submit it in separate commits.
   - Document the code  
     - Make sure to put in enough documentation on your code for future reference. 
   - Separate code from cosmetics 
     - Code and cosmetic changes should be in separate commits to streamline code review. 
   - Test your changes
-    - Kodi's continuous integration system builds the pull request automatically. You're expected to test the code on your development platform.
+    - Kodi's [continuous integration system](https://jenkins.kodi.tv/) builds the pull request automatically. You're expected to test the code on your development platform.
   - Don’t start a new pull request 
     - Simply edit the existing pull request if maintainers notify you of anything they would like changed.
 ## Security-related history
