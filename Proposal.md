@@ -89,9 +89,8 @@ Kodi is an open-source entertainment hub that is customizable and available on v
 
 The Kodi project is actively maintained as can been seen in the activity section. From what we were able to find there have been three documented vulnerabilites for Kodi showing on [CVE details](https://www.cvedetails.com/vulnerability-list/vendor_id-16145/product_id-36080/Kodi-Kodi.html). The most recent reported was from 04/18/18 (CVE-2018-8831) and is stated to be a persistent XSS vulnerability in Kodi through 17.6. This vulnerability allows execution of HTML/script code via the playlist. There were two other recent CVE, one on 02/28/2017 (CVE-2017-5982) for directory traversal in the Chorus2 2.4.2 add-on for Kodi and the other on 05/23/2017 (CVE-2017-8314), also for directory traversal, in the built-in Zip Extraction function in Kodi 17.1. Most of the CVE vulnerabilities have to deal with XSS, Directory Traversal and DoS. I found 4 CVE vulnerabilities with KODI and 7 with XBMC which is was it was formerly called. 
 
-## Internal project tasks
-- The first 6 issues that the team collaborated on [BAAM](https://github.com/mroejr/BAAM/issues?q=is%3Aissue+is%3Aclosed).
-- [Milestone 2](https://github.com/mroejr/BAAM/milestone/2) is in place and has it's 5 issues ready to be assigned.
+## Planning and Contribution
+After discussion in class and on our team [Canvas Board](https://unomaha.instructure.com/groups/18583), our team decided to work on Kodi for our OSS project.  As a team, we have worked together on our proposal in class, outside of class and on Github where commits can be viewed through the repository [BAAM](https://github.com/mroejr/BAAM). [Milestone 2](https://github.com/mroejr/BAAM/milestone/2) is in place and we will be assigning team members to issues for that Milestone shortly. 
 
 ### Documentation sources
   - [GitHub](https://github.com/xbmc/xbmc/blob/master/README.md)
