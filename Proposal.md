@@ -73,16 +73,18 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - Documentation
     - Help with writing new content or correcting existing material.
 ## Contributor agreement
-  - Follow our [code guidelines](https://github.com/xbmc/xbmc/blob/master/docs/CODE_GUIDELINES.md) 
-    - New code should follow those guidelines even if existing code doesn't. If you improve existing code, submit it in separate commits.
-  - Document the code  
-    - Make sure to put in enough documentation on your code for future reference. 
-  - Separate code from cosmetics 
-    - Code and cosmetic changes should be in separate commits to streamline code review. 
-  - Test your changes
-    - Kodi's [continuous integration system](https://jenkins.kodi.tv/) builds the pull request automatically. You're expected to test the code on your development platform.
-  - Don’t start a new pull request 
-    - Simply edit the existing pull request if maintainers notify you of anything they would like changed.
+  - Code will be free of copyright infringements 
+  - Follow [code guidelines](https://github.com/xbmc/xbmc/blob/master/docs/CODE_GUIDELINES.md) 
+  - Proper code documentation  
+  - Code has passed testing on development platform
+    - Kodi's [continuous integration system](https://jenkins.kodi.tv/) builds the pull request automatically. Contributors are expected to test the code on your development platform.
+  - Team-Kodi Members should strive to:  
+    - Promote open source 
+    - Promote the sharing of knowledge and collaboration
+    - Understand that development is a team effort
+    - Apply the Law of Diminishing Return
+    - Try to make all code, feature, and functions to be platform agnostic
+
 ## Security-related history
 
 The Kodi project is actively maintained as can been seen in the activity section. From what we were able to find there have been three documented vulnerabilites for Kodi showing on [CVE details](https://www.cvedetails.com/vulnerability-list/vendor_id-16145/product_id-36080/Kodi-Kodi.html). The most recent reported was from 04/18/18 (CVE-2018-8831) and is stated to be a persistent XSS vulnerability in Kodi through 17.6. This vulnerability allows execution of HTML/script code via the playlist. There were two other recent CVE, one on 02/28/2017 (CVE-2017-5982) for directory traversal in the Chorus2 2.4.2 add-on for Kodi and the other on 05/23/2017 (CVE-2017-8314), also for directory traversal, in the built-in Zip Extraction function in Kodi 17.1. Most of the CVE vulnerabilities have to deal with XSS, Directory Traversal and DoS. I found 4 CVE vulnerabilities with KODI and 7 with XBMC which is was it was formerly called. 
