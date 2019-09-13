@@ -34,7 +34,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
   - A media player than can refer to a media server for playing music, movies, TV shows, etc.
   - Features Add-ons to add to the entertainment hub
     - Music (Radio apps, Apple iTunes podcasts, etc.), Photo (iPhoto, OneDrive, etc.) and others
-  - Installing streaming apps such as Netflix and Hulu are possible, but the process of installing streaming apps is dependent on the type of hardware/operating system Kodi is installed
+  - Kodi does not directly provide streaming apps such as Netflex or Hulu. Users would have to use third-party installers, which is not recommended from Kodi
   - Kodi is legal when used for its intended purposes
 - Activity
   - Contributors – 600+
@@ -60,7 +60,7 @@ Kodi is an open-source entertainment hub that is customizable and available on v
     - [MIT](https://github.com/xbmc/xbmc/blob/master/LICENSES/MIT)
     - [Unlicense (Public Domain)](https://github.com/xbmc/xbmc/blob/master/LICENSES/Unlicense)
 ## How to Contribute 
-  - coding
+  - Coding
     - Fixing bugs
     - Adding features
   - Helping Kodi
