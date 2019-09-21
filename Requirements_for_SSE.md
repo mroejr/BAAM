@@ -44,7 +44,13 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 (Insert diagram of use and misuse case w/parental controls)
 
-### Use Case 3: (Label?)
+### Use Case 3: 
+
+#### Personal Video Recorder (PVR) Use Case
+
+*Note: For more details on the PVR setup, refer to the "How to Guide" link under Documentation Sources below.*
+
+Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on it's own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings. 
 
 * Use case 3 description and diagram
 * Misuse case relating to use case 3 and diagram
@@ -75,3 +81,5 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 * Kodi [Profiles](https://kodi.wiki/view/Profiles)
 * Kodi [Master Lock](https://kodi.wiki/view/Settings/Interface/Master_lock)
+* [PVR Information](https://kodi.wiki/view/PVR_FAQ)
+* [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
