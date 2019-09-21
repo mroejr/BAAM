@@ -19,7 +19,9 @@ Add-ons are free pieces of software Kodi offers on its main software. Add-ons ca
 * Security requirements for Add-Ons
   * 
 
-### Use Case 2: Parental Controls 
+### Use Case 2:
+
+#### Parental Controls Use Case
 
 Cheryl is a parent with Kodi. She uses such add-ons on Kodi that may have content not suitable for children, such as Adult Swim or Crackle. Cheryl does not want her child to view this content.
 
@@ -28,12 +30,19 @@ Master Lock is a standard setting on Kodi to allow users to set up a numeric pas
 
 Cheryl takes her time to set up a profile for her child with a 4-digit PIN master lock code. She also sets Kodi up to ask for the PIN at startup so her child may not access her own profile for restricted content. 
 
-* Use Case
+#### Misuse Case: Parental Controls
 
-   To keep her child from being able to see the content, she creates a separate profile for him/her on Kodi. 
+Caleb is Chery's son. He is a curious 12 year old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi, and restarts every three attempts as required of the software. 
 
-* Misuse case relating to use case 2 and diagram
-* Use case 2 security requirements/prevention of whatever it is
+If Caleb does find the PIN, he can sneakily view mature content when his mom isn't home on the Kodi software. 
+
+#### Prevention/Security Requirement
+
+To prevent this misuse case, Kodi could add a feature to the Master Lock settings to have the PIN number expire or give a reminder to the master user to reset the PIN number. Resetting the PIN number frequently and reminding the master user to do so can be a good recommendation. 
+
+#### Diagram
+
+(Insert diagram of use and misuse case w/parental controls)
 
 ### Use Case 3: (Label?)
 
