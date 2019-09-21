@@ -7,7 +7,7 @@
 ### Use Case 1: (Label?)
 
 * Use case 1 description and 
-![alt text][case1]
+! [alt text][case1]
 [case1]: https://www.lucidchart.com/documents/edit/d18023ce-c569-43fa-b12c-2e719a123ba5/ow_S9bSZnD7x
 diagram
 * Misuse case relating to use case 1 and diagram
