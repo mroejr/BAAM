@@ -6,7 +6,7 @@
 
 ### Use Case 1: (Label?) :octocat:
 
-<img src="https://www.lucidchart.com/documents/embeddedchart/d18023ce-c569-43fa-b12c-2e719a123ba5" id="vDMT66.5jvR5"> 
+![Lucid chart Diagram](https://www.lucidchart.com/documents/embeddedchart/d18023ce-c569-43fa-b12c-2e719a123ba5) 
 * Use case 1 description and diagram
 * Misuse case relating to use case 1 and diagram
 * Use case 1 security requirements/prevention of whatever it is
