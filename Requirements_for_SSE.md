@@ -4,10 +4,10 @@
 
 (some description)
 
-### Use Case 1: (Label?) :octocat:
+### Use Case 1: Add-ons
 
-![Lucid chart Diagram](https://www.lucidchart.com/documents/embeddedchart/d18023ce-c569-43fa-b12c-2e719a123ba5) 
-* Use case 1 description and diagram
+Add-ons are free pieces of software Kodi offers on its main software. Add-ons can be related to Audio or Video to stream internet content, skins to change the interface, etc. Add-ons update automatically as new versions are released. 
+* Use Case
 * Misuse case relating to use case 1 and diagram
 * Use case 1 security requirements/prevention of whatever it is
 
