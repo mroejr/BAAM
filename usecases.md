@@ -1,8 +1,7 @@
 # Potential Use cases
 
-* Add-ons
-* ~~Restrictions - Who can add/remove addons (parental controls) - PIN~~
-* Remote controls (physical) possible misuse with bluetooth connection?
-* ~~PVR - recording live tv??~~
-* password for profiles?
-* web interface
+* Add-ons  Updates (HTTP)
+* Restrictions - Who can add/remove addons (parental controls) - PIN
+* PVR - recording live tv
+* web interface - XSS attacks
+* Kodi allowing 3rd party add-ons
