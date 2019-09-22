@@ -11,7 +11,7 @@
 Add-ons are free pieces of software Kodi offers on its main software. Add-ons can be related to Audio or Video to stream internet content, skins to change the interface, etc. Add-ons update automatically as new versions are released.
 
 * Use Case
-
+![image](Screen Shot 2019-09-22 at 4.38.41 PM.png)
 (use case with actor)
 
 * What can a user expect from add-ons?
@@ -84,5 +84,6 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 * Kodi [Profiles](https://kodi.wiki/view/Profiles)
 * Kodi [Master Lock](https://kodi.wiki/view/Settings/Interface/Master_lock)
+* Kodi [Add-on updates](https://kodi.wiki/view/Add-on_repositories)
 * [PVR Information](https://kodi.wiki/view/PVR_FAQ)
 * [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
