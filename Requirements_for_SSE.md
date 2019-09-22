@@ -82,5 +82,6 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 * Kodi [Profiles](https://kodi.wiki/view/Profiles)
 * Kodi [Master Lock](https://kodi.wiki/view/Settings/Interface/Master_lock)
+* Kodi [Add-on updates](https://kodi.wiki/view/Add-on_repositories)
 * [PVR Information](https://kodi.wiki/view/PVR_FAQ)
 * [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
