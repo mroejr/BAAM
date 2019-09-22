@@ -58,7 +58,9 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 * Misuse case relating to use case 3 and diagram
 * Use case 3 security requirements/prevention of whatever it is
 
-### Use Case 4: (Label?)
+### Use Case 4
+
+#### Allowing 3rd party add-ons
 
 * Use case 4 description and diagram
 * Misuse case relating to use case 4 and diagram
