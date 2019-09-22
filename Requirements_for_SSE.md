@@ -26,13 +26,13 @@ Add-ons are free pieces of software Kodi offers on its main software. Add-ons ca
 Cheryl is a parent with Kodi. She uses such add-ons on Kodi that may have content not suitable for children, such as Adult Swim or Crackle. Cheryl does not want her child to view this content.
 
 Cheryl would want to look at two features of Kodi: Profiles and Master Lock. Profiles are used to let multiple users of Kodi save their settings as a profile. Certain access to folders or other similar content can be customized based on the profile. To change access permissions, Master Lock is used. 
-Master Lock is a standard setting on Kodi to allow users to set up a numeric password (PIN), gamepad button combo (if using game controller), or a full-text password to lock various areas in order to protect their content and settings. Three attempts are allowed to enter the pre-set password; after the third attempt, Kodi requires a restart before trying again. Under the lock preferences in Kodi, certain areas can be locked such as Videos, Pictures and Settings. It can also be set up to ask for the password when starting Kodi. 
+Master Lock is a standard setting on Kodi to allow users to set up a numeric password (PIN), gamepad button combo (if using game controller), or a full-text password to lock various areas in order to protect their content and settings. Three attempts are allowed to enter the pre-set password; after the third attempt, Kodi requires a restart before trying again. Under the lock preferences in Kodi, certain areas can be locked such as Videos, Pictures and Settings. It can also be set up to ask for the password when starting Kodi.
 
-Cheryl takes her time to set up a profile for her child with a 4-digit PIN master lock code. She also sets Kodi up to ask for the PIN at startup so her child may not access her own profile for restricted content. 
+Cheryl takes her time to set up a profile for her child with a 4-digit PIN master lock code. She also sets Kodi up to ask for the PIN at startup so her child may not access her own profile for restricted content.
 
 #### Misuse Case: Parental Controls
 
-Caleb is Chery's son. He is a curious 12 year old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi, and restarts every three attempts as required of the software. 
+Caleb is Chery's son. He is a curious 12 year old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi, and restarts every three attempts as required of the software.
 
 If Caleb does find the PIN, he can sneakily view mature content when his mom isn't home on the Kodi software. 
 
@@ -44,13 +44,13 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 (Insert diagram of use and misuse case w/parental controls)
 
-### Use Case 3: 
+### Use Case 3:
 
 #### Personal Video Recorder (PVR) Use Case
 
 *Note: For more details on the PVR setup, refer to the "How to Guide" link under Documentation Sources below.*
 
-Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on it's own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings. 
+Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on it's own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings.
 
 * Use case 3 description and diagram
 * Misuse case relating to use case 3 and diagram
