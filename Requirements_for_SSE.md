@@ -11,7 +11,7 @@
 Add-ons are free pieces of software Kodi offers on its main software. Add-ons can be related to Audio or Video to stream internet content, skins to change the interface, etc. Add-ons update automatically as new versions are released.
 
 * Use Case
-![alt](Screen Shot 2019-09-22 at 4.38.41 PM.png)
+![alt text](Screen Shot 2019-09-22 at 4.38.41 PM.png)
 (use case with actor)
 
 * What can a user expect from add-ons?
