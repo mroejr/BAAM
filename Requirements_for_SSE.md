@@ -2,24 +2,31 @@
 
 ## Essential Data Flows
 
-(some description)
-
 ### Use Case 1
 
-#### Add-ons
-
-Add-ons are free pieces of software Kodi offers on its main software. Add-ons can be related to Audio or Video to stream internet content, skins to change the interface, etc. Add-ons update automatically as new versions are released.
-
-* Use Case
-![image](Screen Shot 2019-09-22 at 4.38.41 PM.png)
-(use case with actor)
+* Use Case ![image](Screen Shot 2019-09-22 at 4.38.41 PM.png) (use case with actor)
 
 * What can a user expect from add-ons?
   * User data is protected
   * Add-ons from Kodi are legitimate and operate as expected.
   * Add-ons should be supported
-* Misuse case relating to use case 1 and diagram
-* Security requirements for Add-Ons
+  * Misuse case relating to use case 1 and diagram
+
+#### Updating Add-ons
+
+### Add-on Use Case
+
+(Use case relating to HTTP)
+
+### Add-on Misuse Case
+
+(Misuse case relating to HTTP)
+
+### Prevention/Security Requirement
+
+Fill in some stuff
+
+*insert diagram*
 
 ### Use Case 2
 
@@ -32,7 +39,7 @@ Master Lock is a standard setting on Kodi to allow users to set up a numeric pas
 
 Cheryl takes her time to set up a profile for her child with a 4-digit PIN master lock code. She also sets Kodi up to ask for the PIN at startup so her child may not access her own profile for restricted content.
 
-#### Misuse Case: Parental Controls
+#### Parental Controls Misuse Case
 
 Caleb is Chery's son. He is a curious 12 year old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi, and restarts every three attempts as required of the software.
 
@@ -42,9 +49,7 @@ If Caleb does find the PIN, he can sneakily view mature content when his mom isn
 
 To prevent this misuse case, Kodi could add a feature to the Master Lock settings to have the PIN number expire or give a reminder to the master user to reset the PIN number. Resetting the PIN number frequently and reminding the master user to do so can be a good recommendation.
 
-#### Diagram
-
-(Insert diagram of use and misuse case w/parental controls)
+*Insert diagram*
 
 ### Use Case 3
 
@@ -54,17 +59,23 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on it's own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings.
 
-* Use case 3 description and diagram
-* Misuse case relating to use case 3 and diagram
-* Use case 3 security requirements/prevention of whatever it is
+### Personal Video Recorder (PVR) Misuse Case
+
+*Something about ISP Spoofing?*
+
+### Prevention/Security Requirement
+
+*Then insert diagram*
 
 ### Use Case 4
 
-#### Allowing 3rd party add-ons
+#### Third party add-ons Use Case
 
-* Use case 4 description and diagram
-* Misuse case relating to use case 4 and diagram
-* Use case 4 security requirements/prevention of whatever it is
+#### Third party add-ons Misuse case
+
+#### Prevention/Security Requirement
+
+*Then insert diagram*
 
 ### Use Case 5: (Label?)
 
@@ -74,7 +85,11 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 ## Observation of Security-Related Configuration and Installation Issues
 
-* Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
+*Insert paragraph about some official add-ons githubs links from wiki page lead to 404*
+
+*Insert paragraph about copyright and Kodi*
+
+*Paragraph about add-on checkcer Kodi utilizes*
 
 ## GitHub Link
 
@@ -84,6 +99,5 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 * Kodi [Profiles](https://kodi.wiki/view/Profiles)
 * Kodi [Master Lock](https://kodi.wiki/view/Settings/Interface/Master_lock)
-* Kodi [Add-on updates](https://kodi.wiki/view/Add-on_repositories)
 * [PVR Information](https://kodi.wiki/view/PVR_FAQ)
 * [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
