@@ -14,15 +14,15 @@
 
 #### Updating Add-ons
 
-### Add-on Use Case
+#### Add-on Use Case
 
 (Use case relating to HTTP)
 
-### Add-on Misuse Case
+#### Add-on Misuse Case
 
 (Misuse case relating to HTTP)
 
-### Prevention/Security Requirement
+#### Prevention/Security Requirement
 
 Fill in some stuff
 
