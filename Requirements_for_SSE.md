@@ -2,6 +2,7 @@
 
 ## Essential Data Flows
 
+## Case list
 - [Case 1](#use-case-1)
 - [Case 2](#use-case-2)
 - [Case 3](#use-case-3)
@@ -34,6 +35,8 @@
 Fill in some stuff
 
 *insert diagram*
+
+- [Return to top](#case-list)
 
 ### Use Case 2
 
