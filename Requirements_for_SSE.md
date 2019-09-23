@@ -61,6 +61,8 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 *Insert diagram*
 
+- [Return to top](#case-list)
+
 ### Use Case 3
 
 #### Personal Video Recorder (PVR) Use Case
@@ -77,6 +79,8 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
+- [Return to top](#case-list)
+
 ### Use Case 4
 
 #### Third party add-ons Use Case
@@ -87,11 +91,15 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
+- [Return to top](#case-list)
+
 ### Use Case 5: (Label?)
 
 * Use case 5 description and diagram
 * Misuse case relating to use case 5 and diagram
 * Use case 5 security requirements/prevention of whatever it is
+
+- [Return to top](#case-list)
 
 ## Observation of Security-Related Configuration and Installation Issues
 
