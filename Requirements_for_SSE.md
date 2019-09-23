@@ -4,8 +4,10 @@
 
 ### Use Case 1
 
-* Use Case ![image](Screen Shot 2019-09-22 at 4.38.41 PM.png) (use case with actor)
+* Use Case 
+<img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png"> 
 
+(use case with actor)
 * What can a user expect from add-ons?
   * User data is protected
   * Add-ons from Kodi are legitimate and operate as expected.
