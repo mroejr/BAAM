@@ -41,7 +41,7 @@ Cheryl takes her time to set up a profile for her child with a 4-digit PIN maste
 
 #### Parental Controls Misuse Case
 
-Caleb is Chery's son. He is a curious 12 year old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi, and restarts every three attempts as required of the software.
+Caleb is Chery's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi and restarts every three attempts as required of the software.
 
 If Caleb does find the PIN, he can sneakily view mature content when his mom isn't home on the Kodi software.
 
@@ -57,7 +57,7 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 *Note: For more details on the PVR setup, refer to the "How to Guide" link under Documentation Sources below.*
 
-Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on it's own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings.
+Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on its own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. This software is an official add-on from Kodi and comes preinstalled. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings.
 
 ### Personal Video Recorder (PVR) Misuse Case
 
@@ -89,11 +89,11 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Insert paragraph about copyright and Kodi*
 
-*Paragraph about add-on checkcer Kodi utilizes*
+*Paragraph about add-on checker Kodi utilizes*
 
 ## GitHub Link
 
-* Put in github repo showing internal project task assignments and collaborations in finishing. 
+* Put in GitHub repo showing internal project task assignments and collaborations in finishing. 
 
 ## Documentation Sources
 
