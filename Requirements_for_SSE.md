@@ -3,11 +3,11 @@
 ## Essential Data Flows
 
 ## Case list
-### [Case 1](#use-case-1) Updating Add-ons.
-### [Case 2](#use-case-2)
-### [Case 3](#use-case-3)
-### [Case 4](#use-case-4)
-### [Case 5](#use-case-5)
+### [Case 1](#use-case-1) Updating Add-ons Use Case.
+### [Case 2](#use-case-2) Parental Controls Use Case.
+### [Case 3](#use-case-3) Personal Video Recorder (PVR) Use Case.
+### [Case 4](#use-case-4) 
+### [Case 5](#use-case-5) 
 ### Use Case 1
 
 * Use Case 
