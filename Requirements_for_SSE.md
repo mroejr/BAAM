@@ -1,6 +1,7 @@
 # Requirements for Software Security Engineering
 
 ## Essential Data Flows
+![Kodi data flows](https://user-images.githubusercontent.com/22432070/65477501-1c963e80-de4c-11e9-9410-f9e9362682ba.PNG)
 
 ## Case list
 ### [Case 1](#use-case-1) Updating Add-ons Use Case.
