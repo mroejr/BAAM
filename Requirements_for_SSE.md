@@ -11,29 +11,25 @@
 ### [Case 5](#use-case-5) 
 ### Use Case 1
 
-* Use Case 
+#### Add-on Use Case
+* Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob can set updates to occur automatically or set for manual updates for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
 
-(use case with actor)
-* What can a user expect from add-ons?
-  * User data is protected
+#### Updating Add-ons
+* What can a user expect from getting the Add-ons updated frequently?
+  * User data is protected with patches to the code.
   * Add-ons from Kodi are legitimate and operate as expected.
-  * Add-ons should be supported
+  * Add-ons will be supported by using the Add-on Manager.
+  * The ease of use with the updated Add-ons.
+  
+  #### Add-on Misuse Case
+  * Jack has a vast IT Knowledge and he knows Kodi very well. 
+  
   * Misuse case relating to use case 1 and diagram
   <img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png"> 
 
-#### Updating Add-ons
-
-#### Add-on Use Case
-
-(Use case relating to HTTP)
-
-#### Add-on Misuse Case
-
-(Misuse case relating to HTTP)
-
 #### Prevention/Security Requirement
 
-Fill in some stuff
+
 
 *insert diagram*
 
