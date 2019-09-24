@@ -21,7 +21,7 @@
   * Add-ons will be supported by using the Add-on Manager.
   * The ease of use with the updated Add-ons.
   
-  #### Add-on Misuse Case
+#### Add-on Misuse Case
   * Jack has a vast IT Knowledge and he knows Kodi very well. 
   
   * Misuse case relating to use case 1 and diagram
