@@ -59,7 +59,7 @@ If Caleb does find the PIN, he can sneakily view mature content when his mom isn
 
 To prevent this misuse case, Kodi could add a feature to the Master Lock settings to have the PIN number expire or give a reminder to the master user to reset the PIN number. Resetting the PIN number frequently and reminding the master user to do so can be a good recommendation.
 
-*Insert diagram*
+![Parental Controls Use Case Diagram](https://i.imgur.com/vXsFsuX.png)
 
 - [Return to top](#case-list)
 
