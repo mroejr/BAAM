@@ -97,7 +97,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 #### Creating Playlist Use Case
 
-Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode with automatically start after the previous one finishes.  **elaborate more on set up**
+Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
 
 * Misuse case relating to use case 5 and diagram
 * Use case 5 security requirements/prevention of whatever it is
