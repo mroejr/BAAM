@@ -3,15 +3,14 @@
 ## Essential Data Flows
 
 ## Case list
-- [Case 1](#use-case-1) Updating Add-ons.
-- [Case 2](#use-case-2)
-- [Case 3](#use-case-3)
-- [Case 4](#use-case-4)
-- [Case 5](#use-case-5)
+## [Case 1](#use-case-1) Updating Add-ons.
+## [Case 2](#use-case-2)
+## [Case 3](#use-case-3)
+## [Case 4](#use-case-4)
+## [Case 5](#use-case-5)
 ### Use Case 1
 
 * Use Case 
-<img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png"> 
 
 (use case with actor)
 * What can a user expect from add-ons?
@@ -19,6 +18,7 @@
   * Add-ons from Kodi are legitimate and operate as expected.
   * Add-ons should be supported
   * Misuse case relating to use case 1 and diagram
+  <img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png"> 
 
 #### Updating Add-ons
 
@@ -36,7 +36,7 @@ Fill in some stuff
 
 *insert diagram*
 
-- [Return to top](#case-list)
+## [Return to top](#case-list)
 
 ### Use Case 2
 
@@ -61,7 +61,7 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 ![Parental Controls Use Case Diagram](https://i.imgur.com/vXsFsuX.png)
 
-- [Return to top](#case-list)
+## [Return to top](#case-list)
 
 ### Use Case 3
 
@@ -79,7 +79,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
-- [Return to top](#case-list)
+## [Return to top](#case-list)
 
 ### Use Case 4
 
@@ -91,7 +91,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
-- [Return to top](#case-list)
+## [Return to top](#case-list)
 
 ### Use Case 5
 
@@ -102,7 +102,7 @@ Kari is a user of Kodi and has it installed on numerous devices such as her comp
 * Misuse case relating to use case 5 and diagram
 * Use case 5 security requirements/prevention of whatever it is
 
-- [Return to top](#case-list)
+## [Return to top](#case-list)
 
 ## Observation of Security-Related Configuration and Installation Issues
 
