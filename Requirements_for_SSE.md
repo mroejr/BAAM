@@ -4,11 +4,12 @@
 ![Kodi data flows](https://user-images.githubusercontent.com/22432070/65477501-1c963e80-de4c-11e9-9410-f9e9362682ba.PNG)
 
 ## Case list
-### [Case 1](#use-case-1) Updating Add-ons Use Case.
-### [Case 2](#use-case-2) Parental Controls Use Case.
-### [Case 3](#use-case-3) Personal Video Recorder (PVR) Use Case.
-### [Case 4](#use-case-4) 
-### [Case 5](#use-case-5) 
+#### [Case 1](#use-case-1): Updating Add-ons Use Case.
+#### [Case 2](#use-case-2): Parental Controls Use Case.
+#### [Case 3](#use-case-3): Personal Video Recorder (PVR) Use Case.
+#### [Case 4](#use-case-4):
+#### [Case 5](#use-case-5):
+
 ### Use Case 1
 
 #### Add-on Use Case
@@ -33,7 +34,7 @@
 
 *insert diagram*
 
-## [Return to top](#case-list)
+#### [Return to top](#case-list)
 
 ### Use Case 2
 
@@ -58,7 +59,7 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 ![Parental Controls Use Case Diagram](https://i.imgur.com/vXsFsuX.png)
 
-## [Return to top](#case-list)
+#### [Return to top](#case-list)
 
 ### Use Case 3
 
@@ -76,7 +77,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
-## [Return to top](#case-list)
+#### [Return to top](#case-list)
 
 ### Use Case 4
 
@@ -88,7 +89,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 *Then insert diagram*
 
-## [Return to top](#case-list)
+#### [Return to top](#case-list)
 
 ### Use Case 5
 
@@ -103,7 +104,7 @@ Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web in
 * diagram
 * Use case 5 security requirements/prevention of whatever it is
 
-## [Return to top](#case-list)
+#### [Return to top](#case-list)
 
 ## Observation of Security-Related Configuration and Installation Issues
 
@@ -111,8 +112,6 @@ Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web in
 
 Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.tv/addons). An issue that has occurred frequently is the lack of a working source link. Numerous Add-ons will include source code links. Not all Add-ons on Kodi's page included a link to the source code. For example, Kodi offers a [Food Network](https://kodi.tv/addon/plugins-video-add-ons/food-network) Add-on. The Add-on appears to be working with it's last update in January of 2019. However, clicking the link for the source code behind the Add-on, a GitHub 404 page displays. Food Network was not a special case. The same situation occurred when looking at the source code for Add-ons such as [ABC Family](https://kodi.tv/addon/plugins-video-add-ons/abc-family), [Travel Channel](https://kodi.tv/addon/plugins-video-add-ons/travel-channel), [HGTV](https://kodi.tv/addon/plugins-video-add-ons/hgtv), and [GQ Magazine](https://kodi.tv/addon/plugins-video-add-ons/gq).
 
-
-*Insert paragraph about some official add-ons githubs links from wiki page lead to 404*
 
 *Insert paragraph about copyright and Kodi*
 
@@ -128,3 +127,5 @@ Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.
 * Kodi [Master Lock](https://kodi.wiki/view/Settings/Interface/Master_lock)
 * [PVR Information](https://kodi.wiki/view/PVR_FAQ)
 * [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
+
+#### [Return to top](#case-list)
