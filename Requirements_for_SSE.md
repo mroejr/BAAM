@@ -96,7 +96,10 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
 
-* Misuse case relating to use case 5 and diagram
+
+Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web interface that allows arbitrary HTML/script code execution to be implemented in the victim’s browser when creating a new playlist. Kari is in her account now and wants to set up her new playlist for the TV shows she is watching.  She logs in and goes to where she can create a new playlist.  She clicks ‘New Playlist’ button that will allow her to create her personalized list. When she clicks the button there is an alert that says “An unexpected error occurred. Please try logging back in.” and is redirected back to the login page. Now that the code has been executed, Alex is able to hijack Kari’s session by stealing the new session cookie and bypass authentication to get into her account.
+
+* diagram
 * Use case 5 security requirements/prevention of whatever it is
 
 ## [Return to top](#case-list)
