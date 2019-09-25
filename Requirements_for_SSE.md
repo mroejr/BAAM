@@ -1,21 +1,29 @@
 # Requirements for Software Security Engineering
 
 ## Essential Data Flows
+
 ![Kodi data flows](https://user-images.githubusercontent.com/22432070/65477501-1c963e80-de4c-11e9-9410-f9e9362682ba.PNG)
 
 ## Case list
+
 #### [Case 1](#use-case-1): Updating Add-ons Use Case.
-#### [Case 2](#use-case-2): Parental Controls Use Case.
-#### [Case 3](#use-case-3): Personal Video Recorder (PVR) Use Case.
+
+#### [Case 2](#use-case-2): Parental Controls Use Case
+
+#### [Case 3](#use-case-3): Personal Video Recorder (PVR) Use Case
+
 #### [Case 4](#use-case-4):
+
 #### [Case 5](#use-case-5):
 
 ### Use Case 1
 
 #### Add-on Use Case
-* Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob can set updates to occur automatically or set for manual updates for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
+
+Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob can set updates to occur automatically or set for manual updates for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
 
 #### Updating Add-ons
+
 * What can a user expect from getting the Add-ons updated frequently?
   * User data is protected with patches to the code.
   * Add-ons from Kodi are legitimate and operate as expected.
@@ -23,14 +31,13 @@
   * The ease of use with the updated Add-ons.
   
 #### Add-on Misuse Case
-  * Jack has a vast IT Knowledge and he knows Kodi very well. 
+
+* Jack has a vast IT Knowledge and he knows Kodi very well.
   
   * Misuse case relating to use case 1 and diagram
-  <img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png"> 
+  <img width="1118" alt="Screen Shot 2019-09-22 at 4 38 41 PM" src="https://user-images.githubusercontent.com/22432070/65455555-159c0b80-de0d-11e9-9b3c-0fbae5f448e4.png">
 
 #### Prevention/Security Requirement
-
-
 
 *insert diagram*
 
@@ -69,12 +76,11 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows machine also have Kodi installed. Daniel wants to use Kodi with his antenna to record live television with Kodi's PVR capabilities. Kodi on its own is not able to watch live TV and requires backend software to decode broadcast signals from Daniel's antenna. To accomplish this, Kodi relies on network-attached TV tuners or external third-party TV-tuning software to provide a video stream. This acts as the PVR backend. The PVR backend will then work with a PVR client add-on as middleware with Kodi. Daniel decides to use [NextPVR](https://kodi.wiki/view/NextPVR) as the backend software. Daniel updates and configures NextPVR to the latest version, identifying his antenna. NextPVR will use the antenna to look for different tuners (ATSC is the most used in US), and scan for channels. Within the setup, Daniel selects the Windows folder to hold recordings. NextPVR's default is under C:\Temp. Daniel integrates NextPVR on Kodi and enables Live TV in Kodi's main settings. Kodi itself only acts as a graphical interface to the PVR software. 
 
-### Personal Video Recorder (PVR) Misuse Case
+#### Personal Video Recorder (PVR) Misuse Case
 
 Jerry the son of Daniel and is a young adult with a lot of free time. He uses his freetime to learn about computer networking and its vulnerabilities. He recently learned what Man-in-the-Middle (MiTM) attacks were and wanted to try one out for himself. He finds out Kodi only uses HTTP when updating its add-ons and decides to try to enact a MiTM attack. He goes into Kodi's settings and turns off automatic updates for add-ons so he can wait for the next update for NextPVR and launch his attack then. For practice, he occasionally looks for updates for other add-ons and inserts himself between the communications during the update to get an idea how communications work. After a few weeks, he notices an update available for NextPVR. Again, he inserts himself between the Kodi machine and the add-on server, gets the update details from the server, inserts a malicious payload, and sends it back to the Kodi machine.
 
-
-### Prevention/Security Requirement
+#### Prevention/Security Requirement
 
 *Then insert diagram*
 
@@ -98,7 +104,7 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
 
-### Creating Playlist Misuse Case
+#### Creating Playlist Misuse Case
 
 Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web interface that allows arbitrary HTML/script code execution to be implemented in the victim’s browser when creating a new playlist. Kari is in her account now and wants to set up her new playlist for the TV shows she is watching.  She logs in and goes to where she can create a new playlist.  She clicks ‘New Playlist’ button that will allow her to create her personalized list. When she clicks the button there is an alert that says “An unexpected error occurred. Please try logging back in.” and is redirected back to the login page. Now that the code has been executed, Alex is able to hijack Kari’s session by stealing the new session cookie and bypass authentication to get into her account.
 
@@ -109,7 +115,7 @@ Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web in
 
 ## Observation of Security-Related Configuration and Installation Issues
 
-(Insert intro paragraph??) 
+(Insert intro paragraph??)
 
 Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.tv/addons). An issue that has occurred frequently is the lack of a working source link. Numerous Add-ons will include source code links. Not all Add-ons on Kodi's page included a link to the source code. For example, Kodi offers a [Food Network](https://kodi.tv/addon/plugins-video-add-ons/food-network) Add-on. The Add-on appears to be working with it's last update in January of 2019. However, clicking the link for the source code behind the Add-on, a GitHub 404 page displays. Food Network was not a special case. The same situation occurred when looking at the source code for Add-ons such as [ABC Family](https://kodi.tv/addon/plugins-video-add-ons/abc-family), [Travel Channel](https://kodi.tv/addon/plugins-video-add-ons/travel-channel), [HGTV](https://kodi.tv/addon/plugins-video-add-ons/hgtv), and [GQ Magazine](https://kodi.tv/addon/plugins-video-add-ons/gq).
 
