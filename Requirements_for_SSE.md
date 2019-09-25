@@ -71,6 +71,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 ### Personal Video Recorder (PVR) Misuse Case
 
+Jerry the son of Daniel and is a young adult with a lot of free time. He uses his freetime to learn about computer networking and its vulnerabilities. He recently learned what Man-in-the-Middle (MiTM) attacks were and wanted to try one out for himself. He finds out Kodi only uses HTTP when updating its add-ons and decides to try to enact a MiTM attack. He goes into Kodi's settings and turns off automatic updates for add-ons so he can wait for the next update for NextPVR and launch his attack then. For practice, he occasionally looks for updates for other add-ons and inserts himself between the communications during the update to get an idea how communications work. After a few weeks, he notices an update available for NextPVR. Again, he inserts himself between the Kodi machine and the add-on server, gets the update details from the server, inserts a malicious payload, and sends it back to the Kodi machine.
 
 
 ### Prevention/Security Requirement
