@@ -56,7 +56,7 @@ Cheryl takes her time to set up a profile for her child with a 4-digit PIN maste
 
 #### Parental Controls Misuse Case
 
-Caleb is Chery's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi and restarts every three attempts as required of the software.
+Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi and restarts every three attempts as required of the software.
 
 If Caleb does find the PIN, he can sneakily view mature content when his mom isn't home on the Kodi software.
 
