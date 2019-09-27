@@ -73,7 +73,7 @@ To prevent this issue, Kodi would need to either use less obvious tags or encryp
 
 #### Diagram 
 
-![Parental Controls Use Case Diagram](https://i.imgur.com/tysE2Ra.png)
+![Parental Controls Use Case Diagram](https://i.imgur.com/6Hk5Lnq.png)
 
 #### [Return to top](#case-list)
 
@@ -91,7 +91,7 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 #### Prevention/Security Requirement
 
-#### Diagram 
+#### Diagram
 
 #### [Return to top](#case-list)
 
