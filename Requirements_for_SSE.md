@@ -56,15 +56,24 @@ Cheryl takes her time to set up a profile for her child with a 4-digit PIN maste
 
 #### Parental Controls Misuse Case
 
-Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. He tries all the combinations on Kodi and restarts every three attempts as required of the software.
+Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. Kodi, by default, allows for three attempts at the lock code and then requires a restart to try again. To skip this, Caleb finds out he can edit the max number of tries in the guisettings.xml document associated with Kodi. He changes the 3 to a 9999999 and continues to try and brute force the attack. 
 
-If Caleb does find the PIN, he can sneakily view mature content when his mom isn't home on the Kodi software.
 
 #### Prevention/Security Requirement
 
-To prevent this misuse case, Kodi could add a feature to the Master Lock settings to have the PIN number expire or give a reminder to the master user to reset the PIN number. Resetting the PIN number frequently and reminding the master user to do so can be a good recommendation.
+To prevent this misuse case, Kodi could add a feature to the Master Lock settings to have the PIN number expire or give a reminder to the master user to reset the PIN number. Resetting the PIN number frequently and reminding the master user to do so can be a good recommendation. At this time, however, Kodi has no way to set up PIN expirations or reminders. 
 
-![Parental Controls Use Case Diagram](https://i.imgur.com/vXsFsuX.png)
+#### Misuse Case Evolved
+
+Caleb learns that he can access the profiles.xml document associated with the Kodi installation. This document holds an MD5 hash of the PIN code between tags labeled "lockcode". Caleb could easily copy this hash, and search online for a tool to reverse hashes. This way he can figure out the PIN code to accept mature content.
+
+#### Prevention/Security Requirement
+
+To prevent this issue, Kodi would need to either use less obvious tags or encrypt the profiles.xml document so that only a master user can access the file. At this time, Kodi makes the file easy to find and easy to read for any user. 
+
+#### Diagram 
+
+![Parental Controls Use Case Diagram](https://i.imgur.com/tysE2Ra.png)
 
 #### [Return to top](#case-list)
 
@@ -82,7 +91,7 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 #### Prevention/Security Requirement
 
-*Then insert diagram*
+#### Diagram 
 
 #### [Return to top](#case-list)
 
