@@ -90,6 +90,8 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 #### Third party add-ons Use Case
 
+Dan is a user of Kodi and has numerous add-ons already downloaded on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party apps before and has had no issues.  While the third party apps are not officially Kodi approved apps, they are still maintained by the community and Kodi allows them to be used.
+
 #### Third party add-ons Misuse case
 
 #### Prevention/Security Requirement
