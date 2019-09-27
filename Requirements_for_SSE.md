@@ -12,9 +12,9 @@
 
 #### [Case 3](#use-case-3): Personal Video Recorder (PVR) Use Case
 
-#### [Case 4](#use-case-4):
+#### [Case 4](#use-case-4): Third-Party Add-ons Use Case
 
-#### [Case 5](#use-case-5):
+#### [Case 5](#use-case-5): Creating a Playlist Use Case
 
 ### Use Case 1
 
@@ -88,11 +88,13 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 ### Use Case 4
 
-#### Third party add-ons Use Case
+#### Third-Party Add-ons Use Case
 
 Dan is a user of Kodi and has numerous add-ons already downloaded on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party apps before and has had no issues.  While the third party apps are not officially Kodi approved apps, they are still maintained by the community and Kodi allows them to be used.
 
-#### Third party add-ons Misuse case
+#### Third-Party Add-ons Misuse case
+
+Jake is a hacker who likes to steal people’s personal information to use for his own malicious needs as well as sell the information to others. The buyers and Jake can then use the information to steal someone’s identity.  By doing this he can make a lot of money to buy the new car he has always wanted. Since Jake is well versed in placing hidden backdoors into code that are easily missed, he decides he is going to go to a third-party app and start to contribute in the community. Some of his code gets accepted for the app, including the hidden backdoor, which happens to be the same app Dan has just downloaded. Due to Dan having the third-party app with the backdoor, Jake can access Dan’s files from his computer where he has Kodi installed.
 
 #### Prevention/Security Requirement
 
@@ -102,11 +104,11 @@ Dan is a user of Kodi and has numerous add-ons already downloaded on his device.
 
 ### Use Case 5
 
-#### Creating Playlist Use Case
+#### Creating a Playlist Use Case
 
 Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
 
-#### Creating Playlist Misuse Case
+#### Creating a Playlist Misuse Case
 
 Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web interface that allows arbitrary HTML/script code execution to be implemented in the victim’s browser when creating a new playlist. Kari is in her account now and wants to set up her new playlist for the TV shows she is watching.  She logs in and goes to where she can create a new playlist.  She clicks ‘New Playlist’ button that will allow her to create her personalized list. When she clicks the button there is an alert that says “An unexpected error occurred. Please try logging back in.” and is redirected back to the login page. Now that the code has been executed, Alex is able to hijack Kari’s session by stealing the new session cookie and bypass authentication to get into her account.
 
