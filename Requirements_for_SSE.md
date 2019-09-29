@@ -54,7 +54,7 @@ Cheryl takes her time to set up a profile for her child with a 4-digit PIN maste
 
 #### Parental Controls Misuse Case
 
-Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. Kodi, by default, allows for three attempts at the lock code and then requires a restart to try again. To skip this, Caleb finds out he can edit the max number of tries in the guisettings.xml document associated with Kodi. He changes the 3 to a 9999999 and continues to try and brute force the attack. 
+Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use add-ons like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. Kodi, by default, allows for three attempts at the lock code and then requires a restart to try again. To skip this, Caleb finds out he can edit the max number of tries in the guisettings.xml document associated with Kodi. He changes the 3 to a 9999999 and continues to try and brute force the attack. 
 
 #### Prevention/Security Requirement
 
@@ -100,11 +100,11 @@ The best way to prevent this misuse case would be to update the add-on via HTTPS
 
 #### Third-Party Add-ons Use Case
 
-Dan is a user of Kodi and has numerous add-ons already downloaded on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party apps before and has had no issues.  While the third-party apps are not officially Kodi approved apps, they are still maintained by the community and Kodi allows them to be used.
+Dan is a user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party add-ons before and has had no issues.  While the third-party add-ons are not officially Kodi approved add-ons, they are still maintained by the community and Kodi allows them to be used.
 
 #### Third-Party Add-ons Misuse case
 
-Jake is a hacker who likes to steal people’s personal information to use for his own malicious needs as well as sell the information to others. The buyers and Jake can then use the information to steal someone’s identity.  By doing this he can make a lot of money to buy the new car he has always wanted. Since Jake is well versed in placing hidden backdoors into code that are easily missed, he decides he is going to go to a third-party app and start to contribute in the community. Some of his code gets accepted for the app, including the hidden backdoor, which happens to be the same app Dan has just downloaded. Due to Dan having the third-party app with the backdoor, Jake can access Dan’s files from his computer where he has Kodi installed.
+Jake is a hacker who likes to steal people’s personal information to use for his own malicious needs as well as sell the information to others. The buyers and Jake can then use the information to steal someone’s identity.  By doing this he can make a lot of money to buy the new car he has always wanted. Since Jake is well versed in placing hidden backdoors into code that are easily missed, he decides he is going to go to a third-party add-on and start to contribute in the community. Some of his code gets accepted for the add-on, including the hidden backdoor, which happens to be the same add-on Dan has just downloaded. Due to Dan having the third-party add-on with the backdoor, Jake can access Dan’s files from his computer where he has Kodi installed.
 
 #### Prevention/Security Requirement
 
@@ -154,3 +154,5 @@ Earlier a case use was presented surrounding Master Lock and a PIN password. Mas
 * [PVR Recording Software](https://kodi.wiki/view/PVR_recording_software)
 
 #### [Return to top](#case-list)
+
+
