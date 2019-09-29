@@ -62,7 +62,7 @@ To prevent this misuse case, Kodi could add a feature to the Master Lock setting
 
 #### Misuse Case Evolved
 
-Caleb learns that he can access the profiles.xml document associated with the Kodi installation. This document holds an MD5 hash of the PIN code between tags labeled "lockcode". Caleb could easily copy this hash, and search online for a tool to reverse hashes. This way he can figure out the PIN code to accept mature content.
+Caleb learns that he can access the profiles.xml document associated with the Kodi installation. This document holds an MD5 hash of the PIN code between tags labeled "lockcode". Caleb could easily copy this hash and search online for a tool to reverse hashes. This way he can figure out the PIN code to accept mature content.
 
 #### Prevention/Security Requirement
 
@@ -96,7 +96,7 @@ Jerry the son of Daniel and is a young adult with a lot of free time. He uses hi
 
 #### Third-Party Add-ons Use Case
 
-Dan is a user of Kodi and has numerous add-ons already downloaded on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party apps before and has had no issues.  While the third party apps are not officially Kodi approved apps, they are still maintained by the community and Kodi allows them to be used.
+Dan is a user of Kodi and has numerous add-ons already downloaded on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party apps before and has had no issues.  While the third-party apps are not officially Kodi approved apps, they are still maintained by the community and Kodi allows them to be used.
 
 #### Third-Party Add-ons Misuse case
 
@@ -112,7 +112,7 @@ Jake is a hacker who likes to steal people’s personal information to use for h
 
 #### Creating a Playlist Use Case
 
-Kari is a user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
+Kari is a user of Kodi, and has it installed on numerous devices such as her computer. Kari would like to set up a playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  ** i elaborate more on set up**
 
 #### Creating a Playlist Misuse Case
 
@@ -127,7 +127,7 @@ Alex is a hacker who has found a persistent XSS vulnerability in Kodi’s web in
 
 (Insert intro paragraph??) - Anna
 
-Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.tv/addons). An issue that has occurred frequently is the lack of a working source link. Numerous Add-ons will include source code links. Not all Add-ons on Kodi's page included a link to the source code. For example, Kodi offers a [Food Network](https://kodi.tv/addon/plugins-video-add-ons/food-network) Add-on. The Add-on appears to be working with it's last update in January of 2019. However, clicking the link for the source code behind the Add-on, a GitHub 404 page displays. Food Network was not a special case. The same situation occurred when looking at the source code for Add-ons such as [ABC Family](https://kodi.tv/addon/plugins-video-add-ons/abc-family), [Travel Channel](https://kodi.tv/addon/plugins-video-add-ons/travel-channel), [HGTV](https://kodi.tv/addon/plugins-video-add-ons/hgtv), and [GQ Magazine](https://kodi.tv/addon/plugins-video-add-ons/gq).
+Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.tv/addons). An issue that has occurred frequently is the lack of a working source link. Numerous Add-ons will include source code links. Not all Add-ons on Kodi's page included a link to the source code. For example, Kodi offers a [Food Network](https://kodi.tv/addon/plugins-video-add-ons/food-network) Add-on. The Add-on appears to be working with it's last update in January of 2019. However, clicking the link for the source code behind the Add-on, a GitHub 404-page displays. Food Network was not a special case. The same situation occurred when looking at the source code for Add-ons such as [ABC Family](https://kodi.tv/addon/plugins-video-add-ons/abc-family), [Travel Channel](https://kodi.tv/addon/plugins-video-add-ons/travel-channel), [HGTV](https://kodi.tv/addon/plugins-video-add-ons/hgtv), and [GQ Magazine](https://kodi.tv/addon/plugins-video-add-ons/gq).
 
 Earlier a case use was presented surrounding Master Lock and a PIN password. Masterlock does give the option for using a full-text password or gamepad button combo, but Kodi's official [Wiki](https://kodi.wiki/view/Settings/Interface/Master_lock) primarily talks about the PIN code setup. The case also mentioned how easy it is to find the lockcode via their unencrypted XML files. Simply Google Searching "kodi forgot master pin" and checking the first search result takes the user to an official Kodi support [thread](https://forum.kodi.tv/showthread.php?tid=224101). The thread presents right away in the profiles.xml document, there is an MD5 hash of the lockcode between tags labeled "lockcode". A user could easily revert the hash to its lock code or delete the hash line to dispose of the lock code entirely. Scrolling down on this thread, it is mentioned within the guisettings.xml document has an easy to understand set of "masterlock" tags that contain the line for the max number of tries allowed. It is very simple to change and could go unnoticed. 
 
