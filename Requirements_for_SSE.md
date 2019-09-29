@@ -88,7 +88,11 @@ Sandra is Daniel's irritated neighbor. Daniel has habitually had his buddies ove
 
 #### Prevention/Security Requirement
 
+The best way to prevent this misuse case would be to update the add-on via HTTPS. At this time, Kodi only requires add-ons to be from an HTTP server repository and thus does not meet this security requirement. 
+
 #### Diagram
+
+![PVR Use Case Diagram](https://i.imgur.com/0jgf9Mv.png)
 
 #### [Return to top](#case-list)
 
