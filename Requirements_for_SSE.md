@@ -2,7 +2,7 @@
 
 ## Essential Data Flows
 
-## Case list
+### Case list
 
 #### [Updating Add-ons Use Case](#use-case-1)
 
@@ -84,7 +84,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 #### Personal Video Recorder (PVR) Misuse Case
 
-Jerry the son of Daniel and is a young adult with a lot of free time. He uses his freetime to learn about computer networking and its vulnerabilities. He recently learned what Man-in-the-Middle (MiTM) attacks were and wanted to try one out for himself. He finds out Kodi only uses HTTP when updating its add-ons and decides to try to enact a MiTM attack. He goes into Kodi's settings and turns off automatic updates for add-ons so he can wait for the next update for NextPVR and launch his attack then. For practice, he occasionally looks for updates for other add-ons and inserts himself between the communications during the update to get an idea how communications work. After a few weeks, he notices an update available for NextPVR. Again, he inserts himself between the Kodi machine and the add-on server, gets the update details from the server, inserts a malicious payload, and sends it back to the Kodi machine.
+Sandra is Daniel's irritated neighbor. Daniel has habitually had his buddies over to watch this football games going on every Saturday. His buddies take up a bunch of parking spaces and just cause a ruckus overall. Daniel tries to be a friendly neighbor however, and tries to tell Sandra that he and his friends are just having a fun time. Daniel brags about Kodi's PVR capabilities and antenna setup to Sandra. He saves money to not need cable but is able to receive signal for the games. Sandra has a technical background and wants some peace and quiet. She looks into Kodi and what PVR add-ons Kodi typically uses. The location of her house is close enough to Daniel's that she can watch his open network traffic. Sandra assumes he leaves it open so his buddies can use his WiFi when they come over. Kodi only uses HTTP when updating add-ons. Sandra decides to wait for the right time and commit a MiTM attack when the add-on Daniel uses, NextPVR, has an update available. She inserts a malicious payload to simply run an error on the add-on when opened, stating that services were not available at that time. Daniel and his buddies try messing with the antenna and changing settings on his Kodi hosting machine, but can't get it to work. Daniel and his buddies decide to go to another buddy's house to watch the game until the issue is resolved. Sandra gets at least a few weekends to herself before another update comes out for NextPVR.
 
 #### Prevention/Security Requirement
 
