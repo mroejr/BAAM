@@ -2,19 +2,17 @@
 
 ## Essential Data Flows
 
-![Kodi data flows](https://user-images.githubusercontent.com/22432070/65477501-1c963e80-de4c-11e9-9410-f9e9362682ba.PNG)
-
 ## Case list
 
-#### [Case 1](#use-case-1): Updating Add-ons Use Case.
+#### [Updating Add-ons Use Case](#use-case-1)
 
-#### [Case 2](#use-case-2): Parental Controls Use Case
+#### [ Parental Controls Use Case](#use-case-2)
 
-#### [Case 3](#use-case-3): Personal Video Recorder (PVR) Use Case
+#### [Personal Video Recorder (PVR) Use Case](#use-case-3)
 
-#### [Case 4](#use-case-4): Third-Party Add-ons Use Case
+#### [Third-Party Add-ons Use Case](#use-case-4)
 
-#### [Case 5](#use-case-5): Creating a Playlist Use Case
+#### [Creating a Playlist Use Case](#use-case-5)
 
 ### Use Case 1
 
@@ -57,7 +55,6 @@ Cheryl takes her time to set up a profile for her child with a 4-digit PIN maste
 #### Parental Controls Misuse Case
 
 Caleb is Cheryl's son. He is a curious 12-year-old boy. Caleb wants to use apps like Adult Swim or Crackle to view more mature content without his mom knowing. To bypass the PIN on Kodi against his mom's wishes, he tries to brute-force the PIN and use every 4-digit combination that makes sense to him. He uses birth years, watches his mom enter her card PIN at the grocery store, whatever he can. Kodi, by default, allows for three attempts at the lock code and then requires a restart to try again. To skip this, Caleb finds out he can edit the max number of tries in the guisettings.xml document associated with Kodi. He changes the 3 to a 9999999 and continues to try and brute force the attack. 
-
 
 #### Prevention/Security Requirement
 
@@ -137,6 +134,8 @@ Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.
 *3rd party add-on community support but Kodi not responsible for any  - Anna* 
 
 *Paragraph about add-on checker Kodi utilizes - Marvin*
+
+#### [Return to top](#case-list)
 
 ## GitHub Link
 
