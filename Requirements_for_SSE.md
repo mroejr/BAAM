@@ -6,7 +6,7 @@
 
 #### [Updating Add-ons Use Case](#use-case-1)
 
-#### [ Parental Controls Use Case](#use-case-2)
+#### [Parental Controls Use Case](#use-case-2)
 
 #### [Personal Video Recorder (PVR) Use Case](#use-case-3)
 
@@ -66,9 +66,9 @@ Caleb learns that he can access the profiles.xml document associated with the Ko
 
 #### Prevention/Security Requirement
 
-To prevent this issue, Kodi would need to either use less obvious tags or encrypt the profiles.xml document so that only a master user can access the file. At this time, Kodi makes the file easy to find and easy to read for any user. 
+To prevent this issue, Kodi would need to either use less obvious tags or encrypt the profiles.xml document so that only a master user can access the file. At this time, Kodi makes the file easy to find and easy to read for any user.
 
-#### Diagram 
+#### Diagram
 
 ![Parental Controls Use Case Diagram](https://i.imgur.com/6Hk5Lnq.png)
 
@@ -88,7 +88,7 @@ Sandra is Daniel's irritated neighbor. Daniel has habitually had his buddies ove
 
 #### Prevention/Security Requirement
 
-The best way to prevent this misuse case would be to update the add-on via HTTPS. At this time, Kodi only requires add-ons to be from an HTTP server repository and thus does not meet this security requirement. 
+The best way to prevent this misuse case would be to update the add-on via HTTPS. At this time, Kodi only requires add-ons to be from an HTTP server repository and thus does not meet this security requirement.
 
 #### Diagram
 
@@ -154,5 +154,3 @@ Earlier a case use was presented surrounding Master Lock and a PIN password. Mas
 * [PVR Recording Software](https://kodi.wiki/view/PVR_recording_software)
 
 #### [Return to top](#case-list)
-
-
