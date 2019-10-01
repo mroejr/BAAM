@@ -120,10 +120,13 @@ Kari is a typical innocent user of Kodi and has it installed on numerous devices
 
 #### Creating a Playlist Misuse Case
 
-Alex is a friend of Kari’s, who in his free time likes to search for XSS vulnerabilities. In Alex's recent search he has found a persistent XSS vulnerability in Kodi’s web interface that allows arbitrary HTML/script code execution to be implemented in the victim’s browser when creating a new playlist. Alex knows Kari uses Kodi and likes to create a variety playlists for music and shows she watches. After a falling out with Kari, Alex wants to take revenge and sabotage her Kodi account. Typically, when Kari logs into her account and wants to set up her new playlist for the TV shows she clicks ‘New Playlist’ button that will allow her to create her personalized list.  However, this time when she logs in and goes to where she can create a new playlist and clicks ‘New Playlist’ button she gets an alert that says “An unexpected error occurred. Please try logging back in.” and is redirected back to the login page. She just assumes this was some kind of interruption in the website and logs back in. Now that the code has been executed, Alex is able to hijack Kari’s session by stealing the new session cookie and bypass authentication to get into her account.
+Alex is a friend of Kari’s, who in his free time likes to search for XSS vulnerabilities. In Alex's recent search he has found a persistent XSS vulnerability in Kodi’s web interface that allows arbitrary HTML/script code execution to be implemented in the victim’s browser when creating a new playlist. Alex knows Kari uses Kodi and likes to create a variety of playlists for music and shows she watches. After a falling out with Kari, Alex wants to take revenge and sabotage her Kodi account. Typically, when Kari logs into her account and wants to set up her new playlist for the TV shows she clicks ‘New Playlist’ button that will allow her to create her personalized list.  However, this time when she logs in and goes to where she can create a new playlist and clicks ‘New Playlist’ button she gets an alert that says “An unexpected error occurred. Please try logging back in.” and is redirected back to the login page. She just assumes this was some kind of interruption in the website and logs back in. Now that the code has been executed, Alex is able to hijack Kari’s session by stealing the new session cookie and bypass authentication to get into her account.
 
-* diagram
-* Use case 5 security requirements/prevention of whatever it is
+#### Prevention/Security Requirement
+
+One way Kodi can work to prevent XSS is to make sure they validate user input.  It is important to always validate anything entered in by a user because it could make its way back into the output.  Data validation should be the basis as it will help reduce the risk of XSS but alone may not be enough, so it is good to combine it with other methods.  Another method that can be used in conjunction with data validation is escaping data.  The allows for data being received by the web page is being censored in a way that will inhibit characters such as < and > from being interpreted.
+
+#### Diagram
 
 #### [Return to top](#case-list)
 
