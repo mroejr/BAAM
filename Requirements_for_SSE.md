@@ -24,7 +24,7 @@ These are some benefits the user can expect from getting the Add-ons updated fre
   
 #### Add-on Misuse Case
 
-Jack has a vast IT Knowledge and he knows Kodi very well. By being Bob’s neighbor, he has asked for the WIFI password when he comes over for get-togethers. Jack wants to stop paying for TV and has planned a MiTM attack with the information he has gathered. Jack knows that Kodi has a requirement that repositories only need to have HTTP and will take advantage of that requirement with the attack. With the knowledge that Kodi updates Add-ons by polling the Add-on repositories he only needs to have a WireShark catching the packets coming in. Not knowing what Jack is doing Bob gives him the password any time Jack asks for it. 
+Jack has a vast IT Knowledge and he knows Kodi very well. Jack wants to stop paying for TV and has planned a MiTM attack with the information he has gathered. Jack knows that Kodi has a requirement that repositories only need to have HTTP and will take advantage of that requirement with the attack. With the knowledge that Kodi updates Add-ons by polling the Add-on repositories he only needs to have a WireShark catching the packets coming in.
 
 #### Prevention/Security Requirement
 
