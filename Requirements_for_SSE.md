@@ -18,7 +18,7 @@
 
 #### Add-on Use Case
 
-Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob can set updates to occur automatically or set for manual updates for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
+Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob has the option set updates to occur automatically or manually for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
 
 These are some benefits the user can expect from getting the Add-ons updated frequently. User data is protected with patches to the code. The Add-ons from the Kodi Add-on manager are legitimate and operate as expected with the system. The user will have tech support by using the Add-on Manager. The updated Add-ons will allow for easy of use for the user.
   
@@ -28,15 +28,11 @@ Jack has a vast IT Knowledge and he knows Kodi very well. By being Bob’s neigh
 
 #### Prevention/Security Requirement
 
-This missuse can be mitigated by Kodi upgrading the Add-on requirement for all repositories to have a HTTPS. This is still breakable, the simple fact that by the time a set of packets have been decoded a new set has been sent. Rendering this type of attack labor intensive.
+This misuse can be mitigated by Kodi upgrading the Add-on requirement for all repositories to have a HTTPS. This is still breakable, the simple fact that by the time a set of packets have been decoded a new set has been sent. Rendering this type of attack labor intensive.
 
-#### Miuse Case Evolved
+#### Misuse Case Evolved
 
 With the knowledge that Jack has he has changed his attack to be a replay attack. After learning that Kodi now requires HTTPS for all repositories Jack has moved on to orchestrating a replay attack. If Jack can get more personal information about Bob's accounts on Kodi, he can regain his free TV.
-
-#### Prevention/Security Requirement
-
-
 
 #### Diagram
 
@@ -87,7 +83,7 @@ Daniel has a TV antenna and a TV tuner in his Windows machine. This Windows mach
 
 #### Personal Video Recorder (PVR) Misuse Case
 
-Sandra is Daniel's irritated neighbor. Daniel has habitually had his buddies over to watch this football games going on every Saturday. His buddies take up a bunch of parking spaces and just cause a ruckus overall. Daniel tries to be a friendly neighbor however, and tries to tell Sandra that he and his friends are just having a fun time. Daniel brags about Kodi's PVR capabilities and antenna setup to Sandra. He saves money to not need cable but is able to receive signal for the games. Sandra has a technical background and wants some peace and quiet. She looks into Kodi and what PVR add-ons Kodi typically uses. The location of her house is close enough to Daniel's that she can watch his open network traffic. Sandra assumes he leaves it open so his buddies can use his WiFi when they come over. Kodi only uses HTTP when updating add-ons. Sandra decides to wait for the right time and commit a MiTM attack when the add-on Daniel uses, NextPVR, has an update available. She inserts a malicious payload to simply run an error on the add-on when opened, stating that services were not available at that time. Daniel and his buddies try messing with the antenna and changing settings on his Kodi hosting machine, but can't get it to work. Daniel and his buddies decide to go to another buddy's house to watch the game until the issue is resolved. Sandra gets at least a few weekends to herself before another update comes out for NextPVR.
+Sandra is Daniel's irritated neighbor. Daniel has habitually had his buddies over to watch this football games going on every Saturday. His buddies take up a bunch of parking spaces and just cause a ruckus overall. Daniel tries to be a friendly neighbor however and tries to tell Sandra that he and his friends are just having a fun time. Daniel brags about Kodi's PVR capabilities and antenna setup to Sandra. He saves money to not need cable but is able to receive signal for the games. Sandra has a technical background and wants some peace and quiet. She looks into Kodi and what PVR add-ons Kodi typically uses. The location of her house is close enough to Daniel's that she can watch his open network traffic. Sandra assumes he leaves it open so his buddies can use his WiFi when they come over. Kodi only uses HTTP when updating add-ons. Sandra decides to wait for the right time and commit a MiTM attack when the add-on Daniel uses, NextPVR, has an update available. She inserts a malicious payload to simply run an error on the add-on when opened, stating that services were not available at that time. Daniel and his buddies try messing with the antenna and changing settings on his Kodi hosting machine but can't get it to work. Daniel and his buddies decide to go to another buddy's house to watch the game until the issue is resolved. Sandra gets at least a few weekends to herself before another update comes out for NextPVR.
 
 #### Prevention/Security Requirement
 
@@ -103,7 +99,7 @@ The best way to prevent this misuse case would be to update the add-on via HTTPS
 
 #### Third-Party Add-ons Use Case
 
-Dan is a risky user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi as it has a few movies on it that have not been released yet and Dan loves to brag to his friends when he gets to see a movie before it is released from theathers. He has used third party add-ons before and has had no issues so he decides to add another unoffical add-on so he can keep up to date with the newest unreleased movies.  While the third-party add-ons are not officially Kodi approved add-ons, they are typically maintained by the community. 
+Dan is a risky user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi as it has a few movies on it that have not been released yet and Dan loves to brag to his friends when he gets to see a movie before it is released from theathers. He has used third party add-ons before and has had no issues so he decides to add another unoffical add-on so he can keep up to date with the newest unreleased movies.  While the third-party add-ons are not officially Kodi approved add-ons, the community typically maintains them. 
 
 #### Third-Party Add-ons Misuse case
 
@@ -123,7 +119,7 @@ Backdoors can be hard to protect against, but Dan has set up a good first line d
 
 #### Creating a Playlist Use Case
 
-Kari is a typical innocent user of Kodi and has it installed on numerous devices such as her computer. Kari would like to set up a simple playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  To do this, Kari logs into her account and clicks on "New Playlist" where she can create her personalized playlist allowing her shows will automatically continue to the next episode.
+Kari is a typical innocent user of Kodi, and has it installed on numerous devices such as her computer. Kari would like to set up a simple playlist for her favorite shows. She is wanting the TV show playlist set up so the next episode will automatically start playing after the previous one finishes.  To do this, Kari logs into her account and clicks on "New Playlist" where she can create her personalized playlist allowing her shows will automatically continue to the next episode.
 
 #### Creating a Playlist Misuse Case
 
@@ -147,8 +143,7 @@ Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.
 
 Earlier a case use was presented surrounding Master Lock and a PIN password. Masterlock does give the option for using a full-text password or gamepad button combo, but Kodi's official [Wiki](https://kodi.wiki/view/Settings/Interface/Master_lock) primarily talks about the PIN code setup. The case also mentioned how easy it is to find the lockcode via their unencrypted XML files. Simply Google Searching "kodi forgot master pin" and checking the first search result takes the user to an official Kodi support [thread](https://forum.kodi.tv/showthread.php?tid=224101). The thread presents right away in the profiles.xml document, there is an MD5 hash of the lockcode between tags labeled "lockcode". A user could easily revert the hash to its lock code or delete the hash line to dispose of the lock code entirely. Scrolling down on this thread, it is mentioned within the guisettings.xml document has an easy to understand set of "masterlock" tags that contain the line for the max number of tries allowed. It is very simple to change and could go unnoticed. 
 
-Users are able to add unofficial add-ons to Kodi and in order to do so you will need to enable “Unknown Source” in [Settings/System/Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files). This will allow add-ons to have access to personal data on the device and by allowing it you are responsible for any data loss, damage to the device and unwanted behavior. Kodi does provide a disclaimer when using unofficial Kodi add-ons stating to only download from sources you trust and that you do so at your own risk. They do provide a [list](https://kodi.wiki/view/Unofficial_add-on_repositories) of unofficial add-on repositories stating they are maintained by the community, but it does not endorse the unofficial add-ons. They also provide a list of banned add-ons but as always it is wise to use good judgement when adding an unofficial add-on and to ensure it does not contain pirated content. A lot of third-party add-ons, but not all, do contain some form of pirated content and as a result some third party add-on developers have been [arrested]( https://www.cordcuttersnews.com/several-kodi-add-ons-are-shutting-down-following-a-uk-arrest/). This has cause more third-party add-on developers to [shut down](https://www.comparitech.com/kodi/best-kodi-addons/).
-
+Users are able to add unofficial add-ons to Kodi and in order to do so you will need to enable “Unknown Source” in [Settings/System/Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files). This will allow add-ons to have access to personal data on the device and by allowing it you are responsible for any data loss, damage to the device and unwanted behavior. Kodi does provide a disclaimer when using unofficial Kodi add-ons stating to only download from sources you trust and that you do so at your own risk. They do provide a [list](https://kodi.wiki/view/Unofficial_add-on_repositories) of unofficial add-on repositories stating they are maintained by the community, but it does not endorse the unofficial add-ons. They also provide a list of banned add-ons but as always it is wise to use good judgement when adding an unofficial add-on and to ensure it does not contain pirated content. A lot of third-party add-ons, but not all, do contain some form of pirated content and as a result some third-party add-on developer have been [arrested]( https://www.cordcuttersnews.com/several-kodi-add-ons-are-shutting-down-following-a-uk-arrest/). This has cause more third-party add-on developers to [shut down](https://www.comparitech.com/kodi/best-kodi-addons/).
 
 *Paragraph about add-on checker Kodi utilizes - Marvin*
 
@@ -168,6 +163,5 @@ Users are able to add unofficial add-ons to Kodi and in order to do so you will 
 * [XSS Prevention](https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/)
 * [Creating a Playlist](https://kodi.wiki/view/Basic_playlists)
 * [Backdoors](https://buffered.com/glossary/backdoor/)
-
 
 #### [Return to top](#requirements-for-software-security-engineering)
