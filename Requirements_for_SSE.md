@@ -40,7 +40,6 @@ With the knowledge that Jack has he has changed his attack to be a replay attack
 
 #### Diagram
 
-  * Misuse case relating to use case 1 and diagram
  ![250](https://user-images.githubusercontent.com/22432070/66010275-e710d700-e483-11e9-8312-605f172bec1c.PNG)
 
 #### [Return to top](#case-list)
