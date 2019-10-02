@@ -108,7 +108,7 @@ Jake is a hacker who likes to steal people’s personal information to use for h
 
 #### Prevention/Security Requirement
 
-*Then insert diagram*
+Backdoors can be hard to protect against, but Dan has set up a good first line defense by having a firewall with strict settings to prevent unauthorized network access to the system. Typical backdoors programs will try to open TCP/IP ports allowing attacks to pass through. Even with this in place backdoors can still get through. Jake is highly skilled and still manages to find a port to send data through. So, Dan installs antivirus and anti-malware software to try and remove the threat. 
 
 #### [Return to top](#case-list)
 
