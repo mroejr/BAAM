@@ -138,6 +138,10 @@ Users can browse all of Kodi's Official Add-ons on their [website](https://kodi.
 
 Earlier a case use was presented surrounding Master Lock and a PIN password. Masterlock does give the option for using a full-text password or gamepad button combo, but Kodi's official [Wiki](https://kodi.wiki/view/Settings/Interface/Master_lock) primarily talks about the PIN code setup. The case also mentioned how easy it is to find the lockcode via their unencrypted XML files. Simply Google Searching "kodi forgot master pin" and checking the first search result takes the user to an official Kodi support [thread](https://forum.kodi.tv/showthread.php?tid=224101). The thread presents right away in the profiles.xml document, there is an MD5 hash of the lockcode between tags labeled "lockcode". A user could easily revert the hash to its lock code or delete the hash line to dispose of the lock code entirely. Scrolling down on this thread, it is mentioned within the guisettings.xml document has an easy to understand set of "masterlock" tags that contain the line for the max number of tries allowed. It is very simple to change and could go unnoticed. 
 
+In order to add an unofficial add-on to Kodi you do need to enable “Unknown Source” in [Settings/System/Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files). This will allow add-ons to have access to personal data on the device and by allowing it you are responsible for any data loss, damage to the device and unwanted behavior.
+Kodi does provide a disclaimer when using unofficial Kodi add-ons stating to only download from sources you trust and that you do so at your own risk. They do provide a [list](https://kodi.wiki/view/Unofficial_add-on_repositories) of unofficial add-on repositories stating they are maintained by the community, but it does not endorse the unofficial add-ons. 
+
+
 *3rd party add-on community support but Kodi not responsible for any  - Anna* 
 
 *Paragraph about add-on checker Kodi utilizes - Marvin*
