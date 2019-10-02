@@ -20,24 +20,28 @@
 
 Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). Bob can set updates to occur automatically or set for manual updates for Add-ons. Bob is very busy and doesn't care as long as he doesn't have to do the updating. The updates have been set to occur automatically in the Add-on Manager. It took Bob two weekends to get Kodi set up and running and he feels accomplished in getting that done and if the sytem can manage itself he is more than happy to let it. The updates will occur every day if needed with Add-ons for Kodi. Bob is more than happy to have this removed from his plate. 
 
-#### Updating Add-ons
-
-* What can a user expect from getting the Add-ons updated frequently?
-  * User data is protected with patches to the code.
-  * Add-ons from Kodi are legitimate and operate as expected.
-  * Add-ons will be supported by using the Add-on Manager.
-  * The ease of use with the updated Add-ons.
+These are some benefits the user can expect from getting the Add-ons updated frequently. User data is protected with patches to the code. The Add-ons from the Kodi Add-on manager are legitimate and operate as expected with the system. The user will have tech support by using the Add-on Manager. The updated Add-ons will allow for easy of use for the user.
   
 #### Add-on Misuse Case
 
-* Jack has a vast IT Knowledge and he knows Kodi very well.
-  
-  * Misuse case relating to use case 1 and diagram
- ![250](https://user-images.githubusercontent.com/22432070/66010275-e710d700-e483-11e9-8312-605f172bec1c.PNG)
+Jack has a vast IT Knowledge and he knows Kodi very well. By being Bob’s neighbor, he has asked for the WIFI password when he comes over for get-togethers. Jack wants to stop paying for TV and has planned a MiTM attack with the information he has gathered. Jack knows that Kodi has a requirement that repositories only need to have HTTP and will take advantage of that requirement with the attack. With the knowledge that Kodi updates Add-ons by polling the Add-on repositories he only needs to have a WireShark catching the packets coming in. Not knowing what Jack is doing Bob gives him the password any time Jack asks for it. 
 
 #### Prevention/Security Requirement
 
-*insert diagram*
+This missuse can be mitigated by Kodi upgrading the Add-on requirement for all repositories to have a HTTPS. This is still breakable, the simple fact that by the time a set of packets have been decoded a new set has been sent. Rendering this type of attack labor intensive.
+
+#### Miuse Case Evolved
+
+With the knowledge that Jack has he has changed his attack to be a replay attack. After learning that Kodi now requires HTTPS for all repositories Jack has moved on to orchestrating a replay attack. If Jack can get more personal information about Bob's accounts on Kodi, he can regain his free TV.
+
+#### Prevention/Security Requirement
+
+
+
+#### Diagram
+
+  * Misuse case relating to use case 1 and diagram
+ ![250](https://user-images.githubusercontent.com/22432070/66010275-e710d700-e483-11e9-8312-605f172bec1c.PNG)
 
 #### [Return to top](#case-list)
 
