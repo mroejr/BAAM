@@ -149,7 +149,7 @@ Users are able to add unofficial add-ons to Kodi and in order to do so you will 
 
 ## GitHub Link
 
-* Put in GitHub repo showing internal project task assignments and collaborations in finishing. - Anna
+[GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/projects/3)
 
 ## Documentation Sources
 
