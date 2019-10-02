@@ -100,7 +100,7 @@ The best way to prevent this misuse case would be to update the add-on via HTTPS
 
 #### Third-Party Add-ons Use Case
 
-Dan is a user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi. He has used third party add-ons before and has had no issues.  While the third-party add-ons are not officially Kodi approved add-ons, they are still maintained by the community and Kodi allows them to be used.
+Dan is a risky user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi as it has a few movies on it that have not been released yet and Dan loves to brag to his friends when he gets to see a movie before it is released from theathers. He has used third party add-ons before and has had no issues so he decides to add another unoffical add-on so he can keep up to date with the newest unreleased movies.  While the third-party add-ons are not officially Kodi approved add-ons, they are typically maintained by the community. 
 
 #### Third-Party Add-ons Misuse case
 
