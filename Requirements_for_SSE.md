@@ -127,11 +127,19 @@ Alex is a friend of Kari’s, who in his free time likes to search for XSS vulne
 
 #### Prevention/Security Requirement
 
-One way Kodi can work to prevent XSS is to make sure they validate user input.  It is important to always validate anything entered in by a user because it could make its way back into the output.  Data validation should be the basis as it will help reduce the risk of XSS but alone may not be enough, so it is good to combine it with other methods.  Another method that can be used in conjunction with data validation is escaping data.  The allows for data being received by the web page is being censored in a way that will inhibit characters such as < and > from being interpreted.
+One way Kodi can work to prevent XSS is to make sure they validate user input. It is important to always validate anything entered in by a user because if it isn’t, an attacker can change the flow of data. Having maximum input lengths can help with making sure payloads can’t be entered into the field. Data validation should be the basis in preventing XSS as it helps to reduce the risk, however, alone is not be enough. 
+
+#### Misuse Case Evolved
+
+Kodi implements client-side input validation by limiting the amount of characters that can go into the field. Now that Alex knows that the site is using client-side user input validation he can access the code in the browser and extend the number of characters the field is able to take. This allows him to bypass the user validation.
+
+#### Prevention/Security Requirement
+
+Validating client-side input is beneficial for conserving bandwidth and helping users see if they have entered in wrong information to the fields, however, it is not the strongest tool to prevent attacks and should always be combined with other methods. Another method that can be used in conjunction with data validation is escaping data. This ensures the data being received by the web page is being censored in a way that will inhibit characters such as < and > from being interpreted which are widely used for creating payloads.
 
 #### Diagram
 
-![Create Playlist Case Diagram](https://i.imgur.com/Cxx5mfW.png)
+![Create Playlist Case Diagram](https://i.imgur.com/6nYTPoj.png)
 
 #### [Return to top](#case-list)
 
