@@ -158,9 +158,9 @@ Users are able to add unofficial add-ons to Kodi and in order to do so you will 
 * [PVR Information](https://kodi.wiki/view/PVR_FAQ)
 * [How to Guide](https://www.howtogeek.com/247311/how-to-watch-live-tv-on-your-kodi-media-center-with-nextpvr/) for watching Live TV on Kodi (linked from Kodi's Wiki page)
 * [PVR Recording Software](https://kodi.wiki/view/PVR_recording_software)
-*[XSS Prevention](https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/)
-*[Creating a Playlist](https://kodi.wiki/view/Basic_playlists)
-*[Backdoors](https://buffered.com/glossary/backdoor/)
+* [XSS Prevention](https://www.checkmarx.com/2017/10/09/3-ways-prevent-xss/)
+* [Creating a Playlist](https://kodi.wiki/view/Basic_playlists)
+* [Backdoors](https://buffered.com/glossary/backdoor/)
 
 
 #### [Return to top](#case-list)
