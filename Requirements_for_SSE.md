@@ -33,7 +33,7 @@ Bob the user needs to get updates for Add-ons setup in the [Kodi Add-on Manager]
 * Jack has a vast IT Knowledge and he knows Kodi very well.
   
   * Misuse case relating to use case 1 and diagram
- ![250](https://user-images.githubusercontent.com/22432070/66008302-64841980-e47b-11e9-8cf9-e8b25a7b17ff.PNG)
+ ![250](https://user-images.githubusercontent.com/22432070/66010275-e710d700-e483-11e9-8312-605f172bec1c.PNG)
 
 #### Prevention/Security Requirement
 
