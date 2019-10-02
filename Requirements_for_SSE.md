@@ -110,6 +110,10 @@ Jake is a hacker who likes to steal people’s personal information to use for h
 
 Backdoors can be hard to protect against, but Dan has set up a good first line defense by having a firewall with strict settings to prevent unauthorized network access to the system. Typical backdoors programs will try to open TCP/IP ports allowing attacks to pass through. Even with this in place backdoors can still get through. Jake is highly skilled and still manages to find a port to send data through. So, Dan installs antivirus and anti-malware software to try and remove the threat. 
 
+#### Diagram
+
+![Third-Party Add-on Case Diagram](https://i.imgur.com/51Ygs5I.png) 
+
 #### [Return to top](#case-list)
 
 ### Use Case 5
@@ -128,6 +132,8 @@ One way Kodi can work to prevent XSS is to make sure they validate user input.  
 
 #### Diagram
 
+![Create Playlist Case Diagram](https://i.imgur.com/Cxx5mfW.png)
+
 #### [Return to top](#case-list)
 
 ## Observation of Security-Related Configuration and Installation Issues
@@ -140,8 +146,6 @@ Earlier a case use was presented surrounding Master Lock and a PIN password. Mas
 
 Users are able to add unofficial add-ons to Kodi and in order to do so you will need to enable “Unknown Source” in [Settings/System/Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files). This will allow add-ons to have access to personal data on the device and by allowing it you are responsible for any data loss, damage to the device and unwanted behavior. Kodi does provide a disclaimer when using unofficial Kodi add-ons stating to only download from sources you trust and that you do so at your own risk. They do provide a [list](https://kodi.wiki/view/Unofficial_add-on_repositories) of unofficial add-on repositories stating they are maintained by the community, but it does not endorse the unofficial add-ons. They also provide a list of banned add-ons but as always it is wise to use good judgement when adding an unofficial add-on and to ensure it does not contain pirated content. A lot of third-party add-ons, but not all, do contain some form of pirated content and as a result some third party add-on developers have been [arrested]( https://www.cordcuttersnews.com/several-kodi-add-ons-are-shutting-down-following-a-uk-arrest/). This has cause more third-party add-on developers to [shut down](https://www.comparitech.com/kodi/best-kodi-addons/).
 
-
-*3rd party add-on community support but Kodi not responsible for any  - Anna* 
 
 *Paragraph about add-on checker Kodi utilizes - Marvin*
 
