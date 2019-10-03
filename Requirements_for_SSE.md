@@ -107,7 +107,7 @@ Jake is a hacker who likes to steal people’s personal information to use for h
 
 #### Prevention/Security Requirement
 
-Backdoors can be hard to protect against, but Dan has set up a good first line defense by having a firewall with strict settings to prevent unauthorized network access to the system. Typical backdoors programs will try to open TCP/IP ports allowing attacks to pass through. Even with this in place backdoors can still get through. Jake is highly skilled and still manages to find a port to send data through. So, Dan installs antivirus and anti-malware software to try and remove the threat. 
+The risk, with regards to downloading third-party add-ons, is hard for Kodi to control as they are not monitoring and maintaining them. One way Kodi can try to protect users against the risk associated with third-party add-ons is  to educate or deter users from installing them by having a noticeable warning and having them explicitly accept the risk.
 
 #### Diagram
 
