@@ -111,7 +111,7 @@ The risk, with regards to downloading third-party add-ons, is hard for Kodi to c
 
 #### Diagram
 
-![Third-Party Add-on Case Diagram](https://i.imgur.com/51Ygs5I.png) 
+![Third-Party Add-on Case Diagram](https://i.imgur.com/QXuE2YK.png) 
 
 #### [Return to top](#case-list)
 
