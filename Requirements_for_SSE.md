@@ -101,13 +101,15 @@ The best way to prevent this misuse case would be to update the add-on via HTTPS
 
 Dan is a risky user of Kodi and has numerous add-ons already installed on his device. He sees a third-party add-on that he would like to put onto Kodi as it has a few movies on it that have not been released yet and Dan loves to brag to his friends when he gets to see a movie before it is released from theathers. He has used third party add-ons before and has had no issues so he decides to add another unoffical add-on so he can keep up to date with the newest unreleased movies.  While the third-party add-ons are not officially Kodi approved add-ons, the community typically maintains them. 
 
+Thomas is a safe user and was looking at installing a third-party add-on his friend Dan suggested. When he goes to enable unknown sources, he sees a message the warns him of the risk involved with using sources. He decides he does not want to take the chance of malicious users getting his personal data and declines to enable unknown sources.
+
 #### Third-Party Add-ons Misuse case
 
-Jake is a hacker who likes to steal people’s personal information to use for his own malicious needs as well as sell the information to others. The buyers and Jake can then use the information to steal someone’s identity.  By doing this he can make a lot of money to buy the new car he has always wanted. Since Jake is well versed in placing hidden backdoors into code that are easily missed, he decides he is going to go to a third-party add-on and start to contribute in the community. Some of his code gets accepted for the add-on, including the hidden backdoor, which happens to be the same add-on Dan has just downloaded. Due to Dan having the third-party add-on with the backdoor, Jake can access Dan’s files from his computer where he has Kodi installed.
+Jake is a hacker who likes to steal people’s personal information to use for his own malicious needs as well as sell the information to others. The buyers and Jake can then use the information to steal someone’s identity.  By doing this he can make a lot of money to buy the new car he has always wanted. Since Jake is well versed in placing hidden backdoors into code that are easily missed, he decides he is going to go to a third-party add-on and start to contribute in the community. Some of his code gets accepted for the add-on, including the hidden backdoor, which happens to be the same add-on Dan, the risky user, has just downloaded. Due to Dan having the third-party add-on with the backdoor, Jake can access Dan’s files from his computer where he has Kodi installed.
 
 #### Prevention/Security Requirement
 
-The risk, with regards to downloading third-party add-ons, is hard for Kodi to control as they are not monitoring and maintaining them. One way Kodi can try to protect users against the risk associated with third-party add-ons is  to educate or deter users from installing them by having a noticeable warning and having them explicitly accept the risk.
+The risk, with regards to downloading third-party add-ons, is hard for Kodi to control as they are not monitoring and maintaining them. One way Kodi can try to protect users against the risk associated with third-party add-ons is to educate or deter users from installing them by having a noticeable warning and having them explicitly accept the risk. Users that decline to enable unknown sources helps to protect themselves from the threat of installing backdoors through add-ons.
 
 #### Diagram
 
