@@ -32,12 +32,16 @@ This misuse can be mitigated by Kodi upgrading the Add-on requirement for all re
 
 #### Misuse Case Evolved
 
-With the knowledge that Jack has he has changed his attack to be a replay attack. After learning that Kodi now requires HTTPS for all repositories Jack has moved on to orchestrating a replay attack. If Jack can get more personal information about Bob's accounts on Kodi, he can regain his free TV.
+With the knowledge that Jack has he has changed his attack to be a replay attack. After learning that Kodi now requires HTTPS for all repositories Jack has moved on to orchestrating a replay attack. If Jack can get more personal information about Bob's accounts on Kodi, he can regain his free TV. The requirement that Add-on repositories use HTTPS will be a recommendation that the BAAM team will address during this project, at this time Add-ons only need to use HTTP. 
+
+#### Prevention/Security Requirement
+
+This evolved misuse case can be mitigated by using the Kodi Master Lock pin. This Master Lock only allows the primary user access to create new users on Kodi. The Kodi Master Lock will be discuss in further detail in the next Use Case.
 
 #### Diagram
 
- ![250](https://user-images.githubusercontent.com/22432070/66010275-e710d700-e483-11e9-8312-605f172bec1c.PNG)
-
+ ![250](https://user-images.githubusercontent.com/22432070/66095670-fa907080-e55d-11e9-9556-652a9a316095.PNG)
+ 
 #### [Return to top](#case-list)
 
 ### Use Case 2
@@ -155,13 +159,13 @@ Earlier a case use was presented surrounding Master Lock and a PIN password. Mas
 
 Users are able to add unofficial add-ons to Kodi and in order to do so the users will need to enable “Unknown Source” in [Settings/System/Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files). This will allow add-ons to have access to personal data on the device and by allowing it the user is responsible for any data loss, damage to the device or unwanted behavior. Kodi does provide a disclaimer when using unofficial Kodi add-ons stating to only download from sources the user trusts and that the user does so at their own risk. They do provide a [list](https://kodi.wiki/view/Unofficial_add-on_repositories) of unofficial add-on repositories stating they are maintained by the community, but it does not endorse the unofficial add-ons. They also provide a list of banned add-ons but as always it is wise to use good judgement when adding an unofficial add-on and to ensure it does not contain pirated content. A lot of third-party add-ons, but not all, do contain some form of pirated content and as a result some third-party add-on developer have been [arrested](https://www.cordcuttersnews.com/several-kodi-add-ons-are-shutting-down-following-a-uk-arrest/). This has cause more third-party add-on developers to [shut down](https://www.comparitech.com/kodi/best-kodi-addons/).
 
-*Paragraph about add-on checker Kodi utilizes - Marvin*
+Users will be walked throught the [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager). In this wiki page ti has a step by step.
 
 #### [Return to top](#case-list)
 
-## GitHub Link
+## Planning and Contribution
 
-[GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/milestone/2)
+Our repository for this deliverable can be viewed at [GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/milestone/2).
 
 ## Documentation Sources
 
@@ -176,6 +180,7 @@ Users are able to add unofficial add-ons to Kodi and in order to do so the users
 * Kodi [How to Install Add-ons](https://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files)
 * [Unofficial Add-ons Repositories](https://kodi.wiki/view/Unofficial_add-on_repositories)
 * [Best Kodi Add-ons](https://www.comparitech.com/kodi/best-kodi-addons/)
-
+* [Kodi Add-on Manager](https://kodi.wiki/view/Add-on_manager)
+* [Requirements for Add-ons](https://kodi.wiki/view/Add-on_repositories)
 
 #### [Return to top](#requirements-for-software-security-engineering)
