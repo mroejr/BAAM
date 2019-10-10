@@ -39,4 +39,4 @@ test
 
 # Planning and Contribution
 
-https://github.com/mroejr/BAAM/milestone/3
+Our repository for this deliverable can be viewed at [GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/milestone/3).
