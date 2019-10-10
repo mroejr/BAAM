@@ -10,8 +10,6 @@
 
 #### [Assurance Case 4](#assurance-case-4)
 
-#### [Assurance Case 5](#assurance-case-5)
-
 ### Assurance Case 1
 
 test
@@ -38,11 +36,6 @@ test
 
 #### [Return to top](#assurance-case-list)
 
-### Assurance Case 5
-
-#### Evidence
-
-#### [Return to top](#assurance-case-list)
 
 # Planning and Contribution
 
