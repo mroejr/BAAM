@@ -40,6 +40,9 @@ TODO: Alignment check
 
 #### [Return to top](#assurance-case-list)
 
+## Reflection
+
+*What issues occurred? What did you plan to change moving forward? Etc.*
 
 ## Planning and Contribution
 
