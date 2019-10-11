@@ -11,11 +11,15 @@
 #### [Assurance Case 4](#assurance-case-4)
 
 ### Assurance Case 1
-![User Profile Separation Diagram](https://i.imgur.com/9yLTH0z.jpg)
+![User Profile Separation Diagram](https://i.imgur.com/ZT82OUa.jpg)
 
 #### Evidence
 
-TODO: Alignment check
+In support for Evidence E3, for Claim C4, Kodi's [Wiki](https://kodi.wiki/view/Settings/Interface/Master_lock) shows that Master Lock can be disabled as to help prevent other users from accessing other user profiles. In looking for support of Evidence E4, Kodi Wiki nor forums display any information for the availability of 2-factor authentication, which does not help Claim C7, C5, or C1.  
+
+In support of Evidence E2 and E1 to support Claim C6, Kodi by default does not have an auto profile-logoff option within its settings. However, Kodi does offer an Official Add-on named [Logoff](https://kodi.wiki/view/Add-on:Logoff), that makes the software automatically log off from a user profile after a user-set "screensaver time". This add-on, along with Kodi's built-in settings for showing the login screen on [startup](https://kodi.wiki/view/Settings/Profiles#General) help support Claim C2, and the top claim. 
+
+In support of Evidence E4, when setting up user [profiles](https://kodi.wiki/view/Profiles#Specific_profile_settings) there is an option to set up locks on Media info and Media sources (e.g. Separate, Shares with Default, Shares with Default (Read Only) and Separated (Locked)). This gives Kodi users the option to share media info and/or sources if they desire to do so.
 
 #### [Return to top](#assurance-case-list)
 
