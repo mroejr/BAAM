@@ -56,7 +56,7 @@ As new add-ons containing banned content become available, Kodi may not be aware
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 4
-![case23](https://user-images.githubusercontent.com/22432070/66625776-4d4fd500-ebbb-11e9-9a29-f5ba86797840.PNG)
+![Use case - Page 7](https://user-images.githubusercontent.com/22432070/66680190-8e84cb00-ec35-11e9-8dcd-71bd2e04f661.png)
 
 #### Evidence
 
