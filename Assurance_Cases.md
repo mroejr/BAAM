@@ -24,7 +24,7 @@ In support of Evidence E4, when setting up user [profiles](https://kodi.wiki/vie
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 2
-![Preventing Users from Scams Diagram](https://i.imgur.com/IoAYaIk.jpg)
+![Preventing Users from Scams Diagram](https://i.imgur.com/1Cingcb.jpg)
 
 #### Evidence
 
