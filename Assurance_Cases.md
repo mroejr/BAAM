@@ -29,6 +29,7 @@ TODO: Alignment check
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 3
+![Preventing Users from Add-on with Pirated Content Diagram](https://i.imgur.com/jv5OQkq.png)
 
 #### Evidence
 
