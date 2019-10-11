@@ -11,7 +11,7 @@
 #### [Assurance Case 4](#assurance-case-4)
 
 ### Assurance Case 1
-![User Profile Separation Diagram](https://i.imgur.com/Jo5EMYj.jpg)
+![User Profile Separation Diagram](https://i.imgur.com/9yLTH0z.jpg)
 
 #### Evidence
 
@@ -20,7 +20,7 @@ TODO: Alignment check
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 2
-![Preventing Users from Scams Diagram](https://i.imgur.com/SaLVagS.jpg)
+![Preventing Users from Scams Diagram](https://i.imgur.com/IoAYaIk.jpg)
 
 #### Evidence
 
