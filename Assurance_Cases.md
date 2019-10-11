@@ -45,7 +45,7 @@ In looking for support of Evidence E2, Kodi can [support](https://kodi.wiki/view
 
 #### Evidence
 
-For Evidence E1 under Claim C4 it was difficult to find any specific code relating directly to validating user input or escaping to help mitigate XSS, but I did locate a little information regarding client side and server-side code for [randr](https://github.com/xbmc/xbmc/blob/master/xbmc-xrandr.c).
+For Evidence E1 under Claim C4 it was difficult to find any specific code relating directly to validating user input or escaping to help mitigate XSS, but a little information was able to be located regarding client side and server-side code for [randr](https://github.com/xbmc/xbmc/blob/master/xbmc-xrandr.c).
 
 Under Claim C5 for Evidence E2 information can be found on [Kodi’s Official Forum]( https://forum.kodi.tv/showthread.php?tid=339438) page with regards to Kodi withholding support for users with banned add-ons installed. A Kodi team member states they do not tell users what they can and cannot use their Kodi application for and will not enforce policing on a “very incomplete and volatile list of banned add-ons”. Kodi simply states that the choose to NOT give tech support for users that have banned add-ons on their system.  The team member states even if they did embed it into the code people can simply remove it and create their own compilations of Kodi.
 
@@ -63,6 +63,8 @@ As new add-ons containing banned content become available, Kodi may not be aware
 #### [Return to top](#assurance-case-list)
 
 ## Reflection
+
+In our team reflection meeting we discussed how well our approaches worked for both assignments (milestones 2 & 3).  With the third assurance case milestone we did a little more group planning which helped to move along development more efficiently. 
 
 *What issues occurred? What did you plan to change moving forward? Etc.*
 
