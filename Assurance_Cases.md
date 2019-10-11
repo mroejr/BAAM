@@ -8,7 +8,7 @@
 
 * #### [Assurance Case 3](#assurance-case-3)
 
-* #### [Assurance Case 4](#assurance-case-4)
+* #### [Kodi effectively stores & protects personal information about its users.](#assurance-case-4)
 
 ### Assurance Case 1
 ![User Profile Separation Diagram](https://i.imgur.com/ZT82OUa.jpg)
@@ -56,6 +56,7 @@ As new add-ons containing banned content become available, Kodi may not be aware
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 4
+![case23](https://user-images.githubusercontent.com/22432070/66625776-4d4fd500-ebbb-11e9-9a29-f5ba86797840.PNG)
 
 #### Evidence
 
