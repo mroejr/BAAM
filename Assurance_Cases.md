@@ -11,7 +11,7 @@
 * #### [Kodi effectively stores & protects personal information about its users.](#assurance-case-4)
 
 ### Assurance Case 1
-![User Profile Separation Diagram](https://i.imgur.com/ZT82OUa.jpg)
+![User Profile Separation Diagram](https://i.imgur.com/MZNVPqA.jpg)
 
 #### Evidence
 
