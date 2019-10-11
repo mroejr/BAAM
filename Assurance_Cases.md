@@ -28,7 +28,15 @@ In support of Evidence E4, when setting up user [profiles](https://kodi.wiki/vie
 
 #### Evidence
 
-TODO: Alignment check
+In finding suitable Evidence for E3, it is found Kodi does indeed display a warning [message](https://kodi.wiki/images/thumb/c/cb/Addon_unknown_sources_1.png/500px-Addon_unknown_sources_1.png) warning users about potential damages and how it is their responsibility. This does not necessarily support the idea that Kodi prevents potential scams, but at least puts the responsibility upon the user. Because the software is open-source, Kodi cannot force its users to only install official add-ons. This would support Claims C8 and C1 and the overall Top Claim. 
+
+In looking for support for Evidence E1, under Kodi's Repository Submission Guidelines [page](https://kodi.wiki/view/Add-on_rules) there is a listed guideline bullet point that all the files must be free and legal to distribute. Distributing any malware to gain unauthorized access to another user's macine is prohibited in most countries, including the [United States](https://www.nyccriminallawyer.com/white-collar-crimes/distribution-malicious-software/). In addition, it is stated the inclusion of the add-on to the official repo is under the sole discretion of Team Kodi. If within the vetting process, Kodi finds a submitted add-on tries to include malware or monetizes the add-on when they are not the copyright holder, they will not accept the add-on. 
+
+For accessing Rebuttal R3, Kodi has little power in controlling what manufacturers sell for hardware pre-installed with Kodi. Kodi will refuse support to users who use [banned](https://kodi.wiki/view/Official:Forum_rules/Banned_add-ons) add-ons from official Kodi forums, websites, IRC and social media channels controlled by Team Kodi or XBMC Foundation, however that is all they do. Kodi does not go more in depth in preventing its users from using Kodi for malicious or illegal means. Although Claim C10 can be supported, there is no evidence to refute Rebuttal R10 and thus C12 and Evidence E6 cannot be supported. 
+
+With using [skins](https://kodi.wiki/view/Skins) in Kodi, relating to E5, no evidence could be found of Kodi stating they review files associated with available skins for download. A [manual](https://kodi.wiki/view/Skinning_Manual) and multiple [tutorials](https://kodi.wiki/view/Skinning_tutorials) are available for those wanting to create skins, however there is no evidence that there is any file checking involved. This does not support C11 or C4, and thus does not help the top claim.
+
+In looking for support of Evidence E2, Kodi can [support](https://kodi.wiki/view/HTTP) both HTTP and HTTPS, but only requires HTTP. However, Kodi does not provide evidence to support the evidence required for Claim C7. Kodi does not explicitly state is any of its Wiki pages or forums that add-ons are updated via HTTPS instead of HTTP. This thus does not refute the rebuttal against preventing MiTM attacks and therefore also does not support the top claim.
 
 #### [Return to top](#assurance-case-list)
 
