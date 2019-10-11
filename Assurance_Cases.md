@@ -11,7 +11,7 @@
 * #### [Kodi effectively stores & protects personal information about its users.](#assurance-case-4)
 
 ### Assurance Case 1
-![User Profile Separation Diagram](https://i.imgur.com/MZNVPqA.jpg)
+![User Profile Separation Diagram](https://i.imgur.com/L1QYTvM.jpg)
 
 #### Evidence
 
@@ -24,7 +24,7 @@ In support of Evidence E4, when setting up user [profiles](https://kodi.wiki/vie
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 2
-![Preventing Users from Scams Diagram](https://i.imgur.com/1Cingcb.jpg)
+![Preventing Users from Scams Diagram](https://i.imgur.com/wRwa5dJ.jpg)
 
 #### Evidence
 
