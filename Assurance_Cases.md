@@ -84,6 +84,6 @@ During our previous team reflection, we discussed our methods in approaching the
 
 ## Planning and Contribution
 
-Our repository for this deliverable can be viewed at [GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/milestone/3).
+Our repository for this deliverable can be viewed at [GitHub BAAM Project Repository](https://github.com/mroejr/BAAM/milestone/3?closed=1).
 
 
