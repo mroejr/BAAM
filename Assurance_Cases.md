@@ -11,7 +11,7 @@
 * #### [Kodi effectively stores & protects personal information about its users.](#assurance-case-4)
 
 ### Assurance Case 1
-Kodi separates user profiles.
+#### Kodi separates user profiles.
 ![User Profile Separation Diagram](https://i.imgur.com/L1QYTvM.jpg)
 
 #### Evidence
@@ -25,7 +25,7 @@ In support of Evidence E4, when setting up user [profiles](https://kodi.wiki/vie
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 2
-Kodi proficiently prevents users from being scammed.
+#### Kodi proficiently prevents users from being scammed.
 ![Preventing Users from Scams Diagram](https://i.imgur.com/wRwa5dJ.jpg)
 
 #### Evidence
@@ -43,7 +43,7 @@ In looking for support of Evidence E2, Kodi can [support](https://kodi.wiki/view
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 3
-Kodi acceptably prevents users from using add-ons for pirating.
+#### Kodi acceptably prevents users from using add-ons for pirating.
 ![Preventing Users from Add-on with Pirated Content Diagram](https://i.imgur.com/x9mOGTF.png)
 
 #### Evidence
@@ -59,7 +59,7 @@ As new add-ons containing banned content become available, Kodi may not be aware
 #### [Return to top](#assurance-case-list)
 
 ### Assurance Case 4
-Kodi effectively stores & protects personal information about its users.
+#### Kodi effectively stores & protects personal information about its users.
 ![Assurance case 4](https://user-images.githubusercontent.com/22432070/66691712-e800f000-ec5d-11e9-8a25-4ea72e7508df.png)
 
 
