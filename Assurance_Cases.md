@@ -80,7 +80,7 @@ To obtain evidence for E5 there was a diligent reading of a few of Kodis wiki pa
 
 ## Reflection
 
-In our team reflection meeting we discussed how well our approaches worked for both assignments (milestones 2 & 3). In the 2nd milestone we had 5 cases to address and with milestone 3 it was droped down to four and in both assignments one member took two cases and they will need to have a reprieve in a future assignment. For the most part the team is getting to know how each person is and what they bring to the group and also dealing with the loss of a team member. With the third assurance case milestone we did a little more group planning which helped to move along development more efficiently. 
+During our previous team reflection, we discussed our methods in approaching the work so far during this semester project.  In the 2nd milestone we addressed five cases. For our latest milestone, the requirement was dropped to four cases. For both deliverables that involved such cases in both assignments one member took two cases and they will need to have a reprieve in a future assignment. As the semester progresses, the team members are becoming more familiar with each other and what approaches work best for them. The team is at a bit of a disadvantage since the group is of three individuals, rather than four. This has added a bit more of weight in responsibility for each team member. Nonetheless, with the third assurance case milestone we did a little more group planning which helped to move along development more efficiently. 
 
 ## Planning and Contribution
 
