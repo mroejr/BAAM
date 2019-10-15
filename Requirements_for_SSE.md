@@ -40,7 +40,7 @@ This evolved misuse case can be mitigated by using the Kodi Master Lock pin. Thi
 
 #### Diagram
 
- ![Use case1](https://user-images.githubusercontent.com/22432070/66876181-6a4b2600-ef76-11e9-9d13-91a9e98b15f2.png)
+![Use case1](https://user-images.githubusercontent.com/22432070/66876275-d4fc6180-ef76-11e9-811e-6fc9ca8b90fa.png)
  
 #### [Return to top](#case-list)
 
