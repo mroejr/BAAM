@@ -2,36 +2,42 @@
 
 (insert links for named models)
 
-### [name] Model Level 0
+### Add-ons Model Level 0
+
 (lvl 0 diagram)
 
-### [name] Model Level 1
+### Add-ons Model Level 1
+
 (lvl 1 diagram)  
 
 (link to report)
 
-### [name] Model Level 0
+### Parental Controls Model Level 0
+
 (lvl 0 diagram)  
 
 (link to report)
 
-### [name] Model Level 1
+### Parental Controls Model Level 1
+
 (lvl 1 diagram)  
 
 (link to report)
 
-### [name] Model Level 0
+### Creating Playlists Model Level 0
+
 (lvl 0 diagram)  
 
 (link to report)
 
-### [name] Model Level 1
+### Creating Playlists Model Level 1
+
 (lvl 1 diagram)  
 
 (link to report)
-
 
 ## Summary of Observations
+
 (stuff here about analyzing with TMT)
 
 --------------------------
@@ -53,7 +59,3 @@
 ### Link to Repo
 
 ### Reflection
-
-
-
-
