@@ -14,13 +14,12 @@
 
 ### Parental Controls Model Level 0
 
-(lvl 0 diagram)  
+![Parental Controls Lvl 0 Diagram](https://i.imgur.com/5defJBx.png)
 
-(link to report)
 
 ### Parental Controls Model Level 1
 
-(lvl 1 diagram)  
+![Parental Controls Lvl 0 Diagram](https://i.imgur.com/H1UicIk.png)
 
 (link to report)
 
@@ -28,7 +27,6 @@
 
 (lvl 0 diagram)  
 
-(link to report)
 
 ### Creating Playlists Model Level 1
 
@@ -57,5 +55,7 @@
 --------------------------
 
 ### Link to Repo
+
+[GitHub Repo Link](https://github.com/mroejr/BAAM/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Design+for+SSE%22)
 
 ### Reflection
