@@ -4,21 +4,22 @@
 
 ### Add-ons Model Level 0
 
-(lvl 0 diagram)
+![Level0](https://user-images.githubusercontent.com/22432070/68342660-b9393680-00b0-11ea-9c18-6d5372005d88.PNG)
+
 
 ### Add-ons Model Level 1
 
-(lvl 1 diagram)  
+![level1](https://user-images.githubusercontent.com/22432070/68342719-d1a95100-00b0-11ea-9aeb-de591975ec56.PNG)
 
 (link to report)
 
 ### PVR Model Level 0
 
-(lvl 0 diagram)
+![2ndlevel0](https://user-images.githubusercontent.com/22432070/68342750-dff76d00-00b0-11ea-9323-2ccccdb8e34e.PNG)
 
 ### PVR Model Level 1
 
-(lvl 1 diagram)  
+![2ndlevel1](https://user-images.githubusercontent.com/22432070/68342810-01f0ef80-00b1-11ea-89d8-4d5907289617.PNG)
 
 (link to report)
 ### Parental Controls Model Level 0
