@@ -19,18 +19,18 @@
 
 ### Parental Controls Model Level 1
 
-![Parental Controls Lvl 0 Diagram](https://i.imgur.com/H1UicIk.png)
+![Parental Controls Lvl 1 Diagram](https://i.imgur.com/H1UicIk.png)
 
 (link to report)
 
 ### Creating Playlists Model Level 0
 
-(lvl 0 diagram)  
-
+![Create Playlist Lvl 0 Diagram](https://i.imgur.com/dMpqTbD.png)
+ 
 
 ### Creating Playlists Model Level 1
 
-(lvl 1 diagram)  
+![Create Playlist Lvl 1 Diagram](https://i.imgur.com/yrKdB5G.png)  
 
 (link to report)
 
