@@ -12,6 +12,15 @@
 
 (link to report)
 
+### PVR Model Level 0
+
+(lvl 0 diagram)
+
+### PVR Model Level 1
+
+(lvl 1 diagram)  
+
+(link to report)
 ### Parental Controls Model Level 0
 
 ![Parental Controls Lvl 0 Diagram](https://i.imgur.com/5defJBx.png)
