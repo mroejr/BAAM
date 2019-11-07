@@ -29,7 +29,7 @@
 
 ### Parental Controls Model Level 1
 
-![Parental Controls Lvl 1 Diagram](https://i.imgur.com/H1UicIk.png)
+![Parental Controls Lvl 1 Diagram](https://i.imgur.com/vX4S2m4.png)
 
 (link to report)
 
