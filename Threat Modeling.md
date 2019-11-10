@@ -1,7 +1,5 @@
 # Design for Software Security Engineering
 
-(insert links for named models)
-
 ### Add-ons Model Level 0
 
 ![Level0](https://user-images.githubusercontent.com/22432070/68550453-851f8780-03c8-11ea-9476-a4bdcedc3f46.PNG)
@@ -45,7 +43,7 @@
 
 ## Summary of Observations
 
-(stuff here about analyzing with TMT)
+We evaluated the threats generated from Microsoft's TMT software. Below are our findings after reviewing Kodi Wiki documentation.
 
 --------------------------
 
