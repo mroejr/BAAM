@@ -67,3 +67,5 @@ We evaluated the threats generated from Microsoft's TMT software. Below are our 
 [GitHub Repo Link](https://github.com/mroejr/BAAM/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Design+for+SSE%22)
 
 ### Reflection
+
+Over the course of the semester, it seems the group has improved in communicating with each other. It has become easier to delegate tasks equally to other members of the group for project deliverables. As with previous deliverables, individual taks were created and split among the group members, but this time around we bounced around different ideas and input with one another. Hopefully we can produce better quality deliverables for the rest of the semester because of this.
