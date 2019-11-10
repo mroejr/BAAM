@@ -42,7 +42,7 @@
 
 ![Create Playlist Lvl 1 Diagram](https://i.imgur.com/Tqc8ZZ3.png)  
 
-[Create Playlist Report](file:///C:/Users/Anna/Documents/Threat%20Model%20Report.htm)
+[Create Playlist Report]()
 
 ## Summary of Observations
 
