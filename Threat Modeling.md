@@ -18,7 +18,8 @@
 
 ![2ndlevel1](https://user-images.githubusercontent.com/22432070/68550390-032f5e80-03c8-11ea-8c9e-0d414624e536.PNG)
 
-(link to report)
+[PVR Report](https://github.com/mroejr/BAAM/blob/master/Ann-on%20report.pdf)
+
 ### Parental Controls Model Level 0
 
 ![Parental Controls Lvl 0 Diagram](https://i.imgur.com/5defJBx.png)
