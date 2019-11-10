@@ -9,7 +9,7 @@
 
 ### Add-ons Model Level 1
 
-![level1](https://user-images.githubusercontent.com/22432070/68342719-d1a95100-00b0-11ea-9aeb-de591975ec56.PNG)
+![level1](https://user-images.githubusercontent.com/22432070/68550382-f6126f80-03c7-11ea-90bf-256612c9cd79.PNG)
 
 (link to report)
 
@@ -19,7 +19,7 @@
 
 ### PVR Model Level 1
 
-![2ndlevel1](https://user-images.githubusercontent.com/22432070/68342810-01f0ef80-00b1-11ea-89d8-4d5907289617.PNG)
+![2ndlevel1](https://user-images.githubusercontent.com/22432070/68550390-032f5e80-03c8-11ea-8c9e-0d414624e536.PNG)
 
 (link to report)
 ### Parental Controls Model Level 0
