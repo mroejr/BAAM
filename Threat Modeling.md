@@ -40,7 +40,7 @@
 
 ### Creating Playlists Model Level 1
 
-![Create Playlist Lvl 1 Diagram](https://i.imgur.com/yrKdB5G.png)  
+![Create Playlist Lvl 1 Diagram](https://i.imgur.com/Tqc8ZZ3.png)  
 
 (link to report)
 
