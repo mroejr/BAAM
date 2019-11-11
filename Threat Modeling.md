@@ -27,7 +27,7 @@
 
 ### Parental Controls Model Level 1
 
-![Parental Controls Lvl 1 Diagram](https://i.imgur.com/5EzPu6Z.png)
+![Parental Controls Lvl 1 Diagram](https://i.imgur.com/tIOLRsh.png)
 
 [Parental Controls Report](https://github.com/mroejr/BAAM/blob/master/Parental%20Controls%20-Threat%20Modeling%20Report.pdf)
 
