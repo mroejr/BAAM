@@ -38,7 +38,7 @@
 
 ### Creating Playlists Model Level 1
 
-![Create Playlist Lvl 1 Diagram](https://i.imgur.com/Tqc8ZZ3.png)  
+![Create Playlist Lvl 1 Diagram](https://i.imgur.com/oOT1Nu4.png)  
 
 [Create Playlist Report](https://github.com/mroejr/BAAM/blob/master/Threat%20Modeling%20Report%20Create%20Playlist.pdf)
 
