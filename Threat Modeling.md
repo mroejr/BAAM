@@ -50,6 +50,8 @@ We evaluated the threats generated from Microsoft's TMT software. Below are our 
 
 ### Spoofing
 
+When Kodi is initially added to a device it does not require you to set up a username and password. You are able to manually set up separate profiles and create a Master PIN. It is not an automatic feature for security and is up to the user to implement. One of the big problems with Kodi is they only do basic testing before an Add-on can be added to the official Kodi Repository. After it is accepted no follow ups are conducted unless users report problems, then they will investigate and try to fix the issue. Kodi even states they do not make all the add-ons in the repository and are not responsible for their content.  Kodi also accesses the add-ons through the web interface via HTTP. These open Kodi up to spoofing in various ways.  Kodi is mainly just a GUI that allows the user to download content to one place and have an interface to organize and view content. 
+
 ### Tampering
 
 ### Repudiation
