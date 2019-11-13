@@ -40,7 +40,7 @@
 
 ![Create Playlist Lvl 1 Diagram](https://i.imgur.com/oOT1Nu4.png)  
 
-[Create Playlist Report](https://github.com/mroejr/BAAM/blob/master/Threat%20Modeling%20Report%20Create%20Playlist.pdf)
+[Create Playlist Report](https://github.com/mroejr/BAAM/blob/master/Threat%20Modeling%20Create%20Playlist%20Report.pdf)
 
 ## Summary of Observations
 
