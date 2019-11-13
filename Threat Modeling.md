@@ -29,7 +29,7 @@
 
 ![Parental Controls Lvl 1 Diagram](https://i.imgur.com/tIOLRsh.png)
 
-[Parental Controls Report](https://github.com/mroejr/BAAM/blob/master/Parental%20Controls.pdf)
+[Parental Controls Report](https://github.com/mroejr/BAAM/blob/master/Parental%20Controls%20-Threat%20Modeling%20Report.pdf)
 
 ### Creating Playlists Model Level 0
 
