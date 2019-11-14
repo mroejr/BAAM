@@ -59,16 +59,16 @@ Kodi does do some basic input validation for their web interface however as stat
 ### Repudiation
 
 Kodi allows users to view their Logs that are on the system. There are instructions how the logs can help the user with their experience on the system at [Log file](https://kodi.wiki/view/Log_file). Below is a list of each OS that is supported by Kodi for log files.
-###	Windows Desktop: %APPDATA%\Kodi\kodi.log 
-###	Windows Store: %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\kodi.log
-###	Linux: $HOME/.kodi/kodi.log
-###	Ubuntu: $HOME/.var/app/tv.kodi.Kodi/data/temp/kodi.log
-###	macOS: /Users/<user_name>/Library/Application Support/Kodi/kodi.log
-###	Android: <data | sdcard | storage>/Android/data/org.xbmc.kodi/files/.kodi/temp/kodi.log
-###	iOS: /private/var/mobile/Library/Preferences/Kodi/kodi.log
-###	OpenELEC: /storage/.kodi/kodi.log
-###	OSMC: /home/osmc/.kodi/temp/kodi.log
-###	XBian: /home/xbian/.kodi/temp/kodi.log
+-	Windows Desktop: %APPDATA%\Kodi\kodi.log 
+-	Windows Store: %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\kodi.log
+-	Linux: $HOME/.kodi/kodi.log
+-	Ubuntu: $HOME/.var/app/tv.kodi.Kodi/data/temp/kodi.log
+-	macOS: /Users/<user_name>/Library/Application Support/Kodi/kodi.log
+-	Android: <data | sdcard | storage>/Android/data/org.xbmc.kodi/files/.kodi/temp/kodi.log
+-	iOS: /private/var/mobile/Library/Preferences/Kodi/kodi.log
+-	OpenELEC: /storage/.kodi/kodi.log
+-	OSMC: /home/osmc/.kodi/temp/kodi.log
+-	XBian: /home/xbian/.kodi/temp/kodi.log
 
 
 
