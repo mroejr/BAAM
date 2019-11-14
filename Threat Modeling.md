@@ -62,7 +62,7 @@ Kodi does logs.
 
 ### Information Disclosure
 
-As a system Kodi has a clear written outline of how they use the user’s information and how they will address any Information Disclosures. The other end of this security threat Kodi only gives suggestions to the user to follow to maintain the security on keeping their personal information from being attacked by an Information Disclosure attack. If Kodi has a breach the users will be addressed, beyond that this is outside the scope of Kodi’s system and will not be addressed in this review.
+As a system Kodi has a clear written outline of how they use the [user’s information](https://kodi.tv/kodi-privacy-policy) and how they will address any Information Disclosures. The other end of this security threat Kodi only gives suggestions to the user to follow to maintain the security on keeping their personal information from being attacked by an Information Disclosure attack. If Kodi has a breach the users will be addressed, beyond that this is outside the scope of Kodi’s system and will not be addressed in this review.
 
 ### Denial of Service
 
