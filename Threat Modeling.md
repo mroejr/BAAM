@@ -16,7 +16,7 @@
 
 ### PVR Model Level 1
 
-![2ndlevel1](https://user-images.githubusercontent.com/22432070/68817639-e5702c80-0647-11ea-8908-4424cd32c6f1.PNG)
+![2ndlevel1](https://user-images.githubusercontent.com/22432070/68817979-0dac5b00-0649-11ea-9994-92441b8e6d40.PNG)
 
 [PVR Report](https://github.com/mroejr/BAAM/blob/master/PVR.pdf)
 
