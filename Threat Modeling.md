@@ -90,7 +90,7 @@ Within Kodi in the context of profiles, an administrative user can set up differ
 
 ### Link to Repo
 
-[GitHub Repo Link](https://github.com/mroejr/BAAM/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Design+for+SSE%22)
+[GitHub Repo Link](https://github.com/mroejr/BAAM/milestones)
 
 ### Reflection
 
