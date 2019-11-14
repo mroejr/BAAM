@@ -6,7 +6,7 @@
 
 ### Add-ons Model Level 1
 
-![level1](https://user-images.githubusercontent.com/22432070/68550382-f6126f80-03c7-11ea-90bf-256612c9cd79.PNG)
+![level1](https://user-images.githubusercontent.com/22432070/68817610-d5584d00-0647-11ea-9b4c-bc1b52a64a77.PNG)
 
 [Add-on Report](https://github.com/mroejr/BAAM/blob/master/Ann-on%20report.pdf)
 
@@ -16,7 +16,7 @@
 
 ### PVR Model Level 1
 
-![2ndlevel1](https://user-images.githubusercontent.com/22432070/68550390-032f5e80-03c8-11ea-8c9e-0d414624e536.PNG)
+![2ndlevel1](https://user-images.githubusercontent.com/22432070/68817639-e5702c80-0647-11ea-8908-4424cd32c6f1.PNG)
 
 [PVR Report](https://github.com/mroejr/BAAM/blob/master/PVR.pdf)
 
