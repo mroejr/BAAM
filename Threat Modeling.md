@@ -61,20 +61,18 @@ Kodi does do some basic input validation for their web interface however as stat
 Kodi allows users to view their Logs that are on the system. There are instructions how the logs can help the user with their experience on the system at [Log file](https://kodi.wiki/view/Log_file). Below is a list of each OS that is supported by Kodi for log files.
 -	Windows Desktop: %APPDATA%\Kodi\kodi.log 
 -	Windows Store: %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\kodi.log
--	Linux: $HOME/.kodi/kodi.log
--	Ubuntu: $HOME/.var/app/tv.kodi.Kodi/data/temp/kodi.log
--	macOS: /Users/<user_name>/Library/Application Support/Kodi/kodi.log
--	Android: <data | sdcard | storage>/Android/data/org.xbmc.kodi/files/.kodi/temp/kodi.log
--	iOS: /private/var/mobile/Library/Preferences/Kodi/kodi.log
+-	Linux:    $HOME/.kodi/kodi.log
+-	Ubuntu:   $HOME/.var/app/tv.kodi.Kodi/data/temp/kodi.log
+-	macOS:    /Users/<user_name>/Library/Application Support/Kodi/kodi.log
+-	Android:  <data | sdcard | storage>/Android/data/org.xbmc.kodi/files/.kodi/temp/kodi.log
+-	iOS:      /private/var/mobile/Library/Preferences/Kodi/kodi.log
 -	OpenELEC: /storage/.kodi/kodi.log
--	OSMC: /home/osmc/.kodi/temp/kodi.log
--	XBian: /home/xbian/.kodi/temp/kodi.log
-
-
+-	OSMC:     /home/osmc/.kodi/temp/kodi.log
+-	XBian:    /home/xbian/.kodi/temp/kodi.log
 
 ### Information Disclosure
 
-As a system Kodi has a clear written outline of how they use the [user’s information](https://kodi.tv/kodi-privacy-policy) and how they will address any Information Disclosures. The other end of this security threat Kodi only gives suggestions to the user to follow to maintain the security on keeping their personal information from being attacked by an Information Disclosure attack. If Kodi has a breach the users will be addressed, beyond that this is outside the scope of Kodi’s system and will not be addressed in this review.
+As a system Kodi has a clear written outline of how they use the [user’s information](https://kodi.tv/kodi-privacy-policy) and how they will address any Information Disclosures attacks. The other end of this security threat Kodi only gives suggestions to the user to follow to maintain the security on keeping their personal information from being attacked by an Information Disclosure attack. If Kodi has a breach the users will be addressed, beyond that this is outside the scope of Kodi’s system and will not be addressed in this review.
 
 ### Denial of Service
 
