@@ -12,6 +12,23 @@
 
 ## Automated Tool Findings
 
+### Codacy
+- Codacy Report (*Click link for full report*) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a6958fd1f04bc98d8e581ce786f754)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akbarber/clonexbmc&amp;utm_campaign=Badge_Grade)
+- Total Issues: 2543
+- Issue Categories:
+  - Security: 415
+  - Error Prone: 348
+  - Code Style: 1506
+  - Compatibility: 1
+  - Unused Code: 3
+  - Performance: 270
+- Overall code grade: A
+- Issue Levels
+  - Info: The least critical issue type will appear as **blue**; for example code style issues are shown this way.
+  - Warning: This issue type will appear as **yellow**. You should be careful with these ones, they are based on code standards and conventions.
+  - Error: The more dangerous types of issues will show as **red**. Take your time to fix these, although the code may run, these issues show the code that is very susceptible to problems. These issues are bug-prone, and/or can have serious problems regarding security and compatibility.
+
+
 ## Summary of Key Findings
 
 ## OSS Pull Requests???
