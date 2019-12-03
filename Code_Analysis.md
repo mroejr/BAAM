@@ -7,7 +7,8 @@
 
 
 
-## Manual Code Review Findings
+## Manual Code Review
+
 
 ## Automated Tool Findings
 
