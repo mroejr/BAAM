@@ -40,8 +40,8 @@
   - **1** – *wcsncpy()* -	Easily used incorrectly; doesn't always \0-terminate or check for invalid pointers [MS-banned]
   
  - [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)/[CWE – 20](https://cwe.mitre.org/data/definitions/20.html) (Improper Input Validation) – **23**
-  - **22** – *read()* -	Check buffer boundaries if used in a loop including recursive loops
-  - **1** – *getc()* -	Check buffer boundaries if used in a loop including recursive loops
+   - **22** – *read()* -	Check buffer boundaries if used in a loop including recursive loops
+   - **1** – *getc()* -	Check buffer boundaries if used in a loop including recursive loops
 
 - [CWE–676]( https://cwe.mitre.org/data/definitions/676.html) (Use of Potentially Dangerous Function) - **15**
   - **15** – *usleep()* -	This C routine is considered obsolete (as opposed to the shell command by the same name). The interaction of this function with SIGALRM and other timer functions such as sleep(), alarm(), setitimer(), and nanosleep() is unspecified (CWE-676). Use nanosleep(2) or setitimer(2) instead.
