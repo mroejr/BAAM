@@ -39,7 +39,7 @@
   - **6** – *strncat()* -	Easily used incorrectly (e.g., incorrectly computing the correct maximum size to add) [MS-banned] Consider strcat_s, strlcat, snprintf, or automatically resizing strings.
   - **1** – *wcsncpy()* -	Easily used incorrectly; doesn't always \0-terminate or check for invalid pointers [MS-banned]
   
- - [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)/[CWE – 20](https://cwe.mitre.org/data/definitions/20.html) (Improper Input Validation) – **23**
+ - [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)/[CWE–20](https://cwe.mitre.org/data/definitions/20.html) (Improper Input Validation) – **23**
    - **22** – *read()* -	Check buffer boundaries if used in a loop including recursive loops
    - **1** – *getc()* -	Check buffer boundaries if used in a loop including recursive loops
 
