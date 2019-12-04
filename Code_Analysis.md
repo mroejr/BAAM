@@ -101,6 +101,14 @@ In using the tool, three directories were selected to run the tool against. Belo
 
 *Don't use Kodi*
 
+Out of the 415 security issues from the findings of the automated tool, Codacy, most were mapped to CWEs, however many of the Warning Level issues did not have clear CWE. Even though there were not specific CWEs that could be assigned, Codacy did have suggested coding practices for the some of issues which can be seen in the report link above. For the security issue in the Information category, there were a total of 343 issues, in the Warning category there were 69 issues, and in the Error category there were 3 issues. After some investigation we believe two of the three Error issues were from a portion of the repository for test code. For the one Error we believe to be legitimate came from tools/EventClients/lib/c#/EventClient.cs (line 158).
+
+![CodeExample](https://i.imgur.com/scc4dDz.png)
+
+The report states "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them. This issue can be mapped to CWE-391 (Unchecked Error Condition) stating that by ignoring expections and other error conditions this may allow attackers to go unnoticed when inducing unexpected behavior.
+
+With the information provided from the tools we were able to narrow down a few security weakness to focus our manual review to. The top three weakness we found were CWE-126 (Buffer Over-read), CWE-120 (Buffer Overflow), and CWE-20 (Improper Input Validation).
+
 ## OSS Pull Requests???
 
 ## Team Reflection and GitHub Link
