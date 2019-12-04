@@ -53,7 +53,53 @@
 
 
 
+### Flawfinder 
+#### Overview
+
+[Flawfinder](https://dwheeler.com/flawfinder/) is a command-line tool used to review C/C++ code for any security vulnerabilities. The program itself is written in python. The program can observe individual files or entire directories for vulnerabilities. After printing results, the program states that not every hit is necessarily a security vulnerability, but other security vulnerabilities can exist.  
+![Sample](https://i.imgur.com/pWkbP6Q.png)
+
+In using the tool, there were troubles in trying to analyze the entire Kodi codebase, as some errors would occur when running the python script. This was not at fault with the codebase, but with the installation of Python on the machine. Rather than spend too much time troubleshooting this error, it was decided to just analyze directories of the xmbc\ codebase.  
+
+When using the command line tool, it will list the specific file and line that a potential vulnerability was found, along with a the vulnerability's details. Below is an example of this after running the python script. 
+![Example](https://i.imgur.com/GKfVJtK.png)
+
+#### Key Findings
+
+In using the tool, three directories were selected to run the tool against. Below are the results.
+
+* \xbmc\xbmx\addons\
+  * 177 hits
+  * Listed vulnerabilities  
+    * [CWE-78](https://cwe.mitre.org/data/definitions/78.html) (OS Command Injection)
+    * [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)
+    * [CWE-134](https://cwe.mitre.org/data/definitions/134.html) (Use of Externally-Controlled Format String)
+    * [CWE-807](https://cwe.mitre.org/data/definitions/807.html) (Reliance on Untrusted Inputs in a Security Decision)
+    * [CWE-20](https://cwe.mitre.org/data/definitions/20.html) (Improper Input Validation)
+    * [CWE-119](https://cwe.mitre.org/data/definitions/119.html) (Improper Restriction of Operations within the Bounds of a Memory Buffer)
+    * [CWE-190](https://cwe.mitre.org/data/definitions/190.html) (Integer Overflow or Wraparound)
+    * [CWE-362](https://cwe.mitre.org/data/definitions/362.html) (Race Condition)
+    * [CWE–126](https://cwe.mitre.org/data/definitions/126.html) (Buffer Over-read)
+
+* \xbmc\xbmc\pvr
+  * 41 hits
+  * Listed vulnerabilities  
+    * [CWE-78](https://cwe.mitre.org/data/definitions/78.html) (OS Command Injection)
+    * [CWE-190](https://cwe.mitre.org/data/definitions/190.html) (Integer Overflow or Wraparound)
+    * [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)
+    * [CWE–126](https://cwe.mitre.org/data/definitions/126.html) (Buffer Over-read)
+
+* \xbmc\xbmc\video
+  * 61 hits
+  * Listed vulnerabilities
+    * [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)
+    * [CWE-119](https://cwe.mitre.org/data/definitions/119.html) (Improper Restriction of Operations within the Bounds of a Memory Buffer)
+    * [CWE-190](https://cwe.mitre.org/data/definitions/190.html) (Integer Overflow or Wraparound)
+
+
 ## Summary of Key Findings
+
+*Don't use Kodi*
 
 ## OSS Pull Requests???
 
