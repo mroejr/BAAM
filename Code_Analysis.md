@@ -45,7 +45,8 @@
 
 - [CWE–676]( https://cwe.mitre.org/data/definitions/676.html) (Use of Potentially Dangerous Function) - **15**
   - **15** – *usleep()* -	This C routine is considered obsolete (as opposed to the shell command by the same name). The interaction of this function with SIGALRM and other timer functions such as sleep(), alarm(), setitimer(), and nanosleep() is unspecified (CWE-676). Use nanosleep(2) or setitimer(2) instead.
-- [CWE–478](https://cwe.mitre.org/data/definitions/478.html)   ??
+- [CWE–478](https://cwe.mitre.org/data/definitions/478.html) (Missing Default Case in Switch Statement)
+  - **2** - “switch” statements - Add a 'default' clause to this 'switch' statement
 - [CWE–391](https://cwe.mitre.org/data/definitions/391.html) (Unchecked Error Condition)– **1** 
   - **1** – *“catch”* clause - Handle the exception or explain in a comment why it can be ignored.
 - [CWE–563](https://cwe.mitre.org/data/definitions/563.html) (Assignment to Variable without Use) – **2** 
