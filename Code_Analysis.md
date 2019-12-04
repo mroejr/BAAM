@@ -107,6 +107,8 @@ Out of the 415 security issues from the findings of the automated tool, Codacy, 
 
 The report states "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them. This issue can be mapped to CWE-391 (Unchecked Error Condition) stating that by ignoring expections and other error conditions this may allow attackers to go unnoticed when inducing unexpected behavior.
 
+In the Codacy report there is also a section on Security Monitoring that checks for issues in 19 categories such as XSS, Input Validation, File Access, etc. In the report it can be seen that all of the categories have a green checkmark indicating there were not issues found in thoses category. We are still working on understanding this part of the tool as it shows in the Security Monitoring section that there are no security issues in the Input Validation category when in fact there were 23.
+
 With the information provided from the tools we were able to narrow down a few security weakness to focus our manual review to. The top three weakness we found were CWE-126 (Buffer Over-read), CWE-120 (Buffer Overflow), and CWE-20 (Improper Input Validation).
 
 ## OSS Pull Requests???
