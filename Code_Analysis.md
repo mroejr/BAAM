@@ -13,6 +13,7 @@
 ## Automated Tool Findings
 
 ### Codacy
+#### Overview
 - Codacy Report (*Click link for full report*) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a6958fd1f04bc98d8e581ce786f754)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akbarber/clonexbmc&amp;utm_campaign=Badge_Grade)
 - Total Issues: 2543
 - Issue Categories:
@@ -27,6 +28,29 @@
   - Info: The least critical issue type will appear as **blue**; for example code style issues are shown this way.
   - Warning: This issue type will appear as **yellow**. You should be careful with these ones, they are based on code standards and conventions.
   - Error: The more dangerous types of issues will show as **red**. Take your time to fix these, although the code may run, these issues show the code that is very susceptible to problems. These issues are bug-prone, and/or can have serious problems regarding security and compatibility.
+
+#### Key Findings
+- [CWE–126](https://cwe.mitre.org/data/definitions/126.html) (Buffer Over-read) – **206**
+  - **201** – *strlen()* - Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected)
+  - **5** – *wcslen()* -	Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected)
+  
+- [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow) – **101** 
+  - **94** – *strcpty()* -	Easily used incorrectly; doesn't always \0-terminate or check for invalid pointers [MS-banned]
+  - **6** – *strncat()* -	Easily used incorrectly (e.g., incorrectly computing the correct maximum size to add) [MS-banned] Consider strcat_s, strlcat, snprintf, or automatically resizing strings.
+  - **1** – *wcsncpy()* -	Easily used incorrectly; doesn't always \0-terminate or check for invalid pointers [MS-banned]
+  
+ - [CWE–120](https://cwe.mitre.org/data/definitions/120.html) (Buffer Overflow)/[CWE – 20](https://cwe.mitre.org/data/definitions/20.html) (Improper Input Validation) – **23**
+  - **22** – *read()* -	Check buffer boundaries if used in a loop including recursive loops
+  - **1** – *getc()* -	Check buffer boundaries if used in a loop including recursive loops
+
+- [CWE–676]( https://cwe.mitre.org/data/definitions/676.html) (Use of Potentially Dangerous Function) - **15**
+  - **15** – *usleep()* -	This C routine is considered obsolete (as opposed to the shell command by the same name). The interaction of this function with SIGALRM and other timer functions such as sleep(), alarm(), setitimer(), and nanosleep() is unspecified (CWE-676). Use nanosleep(2) or setitimer(2) instead.
+- [CWE–478](https://cwe.mitre.org/data/definitions/478.html)   ??
+- [CWE–391](https://cwe.mitre.org/data/definitions/391.html) (Unchecked Error Condition)– **1** 
+  - **1** – *“catch”* clause - Handle the exception or explain in a comment why it can be ignored.
+- [CWE–563](https://cwe.mitre.org/data/definitions/563.html) (Assignment to Variable without Use) – **2** 
+  - **2** – *“offset”* variable -	Remove this useless assignment to local variable 'offset'.
+
 
 
 ## Summary of Key Findings
