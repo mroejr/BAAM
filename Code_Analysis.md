@@ -99,7 +99,7 @@ In using the tool, three directories were selected to run the tool against. Belo
 
 ## Summary of Key Findings
 
-*Don't use Kodi*
+*This summary may include categorization, mappings to CWEs, CAPECs, Risk Levels, etc.*
 
 Out of the 416 security issues from the findings of the automated tool, Codacy, most were mapped to CWEs, however many of the Warning Level issues did not have clear CWE. Even though there were not specific CWEs that could be assigned, Codacy did have suggested coding practices for the some of issues which can be seen in the report link above. For the security issue in the Information category, there were a total of 343 issues, in the Warning category there were 70 issues, and in the Error category there were 3 issues. After some investigation we believe two of the three Error issues were from a portion of the repository for test code from lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.MediaServerTest/Program.cs(line 37) and lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.SsdpTest/Program.cs(line 38). If these are legitimate code then their potential security risks are within switch statements shown above. For the one Error we believe to be legitimate came from tools/EventClients/lib/c#/EventClient.cs (line 158).
 
