@@ -19,9 +19,9 @@
 [Codacy]( https://www.codacy.com/) is an automated application that automatically identifies issues through static code review analysis. You can get notified on security issues, code coverage, code duplication, and code complexity in every commit and pull request, directly from your current workflow.
 
 - Codacy Report for Cloned Kodi Repository (*Click link for full report*) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a6958fd1f04bc98d8e581ce786f754)](https://app.codacy.com/manual/akbarber/clonexbmc/dashboard?bid=15425771&token=x46T3MhtyxFDdbJ)
-- Total Issues: 2543
+- Total Issues: 2544
 - Issue Categories:
-  - Security: 415
+  - Security: 416
   - Error Prone: 348
   - Code Style: 1506
   - Compatibility: 1
@@ -29,9 +29,9 @@
   - Performance: 270
 - Overall code grade: A
 - Levels for Security Issues
-  - Info: The least critical issue type will appear as **blue**; for example code style issues are shown this way.
-  - Warning: This issue type will appear as **yellow**. You should be careful with these ones, they are based on code standards and conventions.
-  - Error: The more dangerous types of issues will show as **red**. Take your time to fix these, although the code may run, these issues show the code that is very susceptible to problems. These issues are bug-prone, and/or can have serious problems regarding security and compatibility.
+  - Info: The least critical issue type will appear as **blue** (in the report link); for example code style issues are shown this way.
+  - Warning: This issue type will appear as **yellow** (in the report link). You should be careful with these ones, they are based on code standards and conventions.
+  - Error: The more dangerous types of issues will show as **red** (in the report link). Take your time to fix these, although the code may run, these issues show the code that is very susceptible to problems. These issues are bug-prone, and/or can have serious problems regarding security and compatibility.
 
 #### Key Findings
 
@@ -98,11 +98,11 @@ In using the tool, three directories were selected to run the tool against. Belo
 
 *Don't use Kodi*
 
-Out of the 415 security issues from the findings of the automated tool, Codacy, most were mapped to CWEs, however many of the Warning Level issues did not have clear CWE. Even though there were not specific CWEs that could be assigned, Codacy did have suggested coding practices for the some of issues which can be seen in the report link above. For the security issue in the Information category, there were a total of 343 issues, in the Warning category there were 69 issues, and in the Error category there were 3 issues. After some investigation we believe two of the three Error issues were from a portion of the repository for test code from lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.MediaServerTest/Program.cs(line 37) and lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.SsdpTest/Program.cs(line 38). If these are legitimate code then their potential security risks are within switch statements shown above. For the one Error we believe to be legitimate came from tools/EventClients/lib/c#/EventClient.cs (line 158).
+Out of the 416 security issues from the findings of the automated tool, Codacy, most were mapped to CWEs, however many of the Warning Level issues did not have clear CWE. Even though there were not specific CWEs that could be assigned, Codacy did have suggested coding practices for the some of issues which can be seen in the report link above. For the security issue in the Information category, there were a total of 343 issues, in the Warning category there were 70 issues, and in the Error category there were 3 issues. After some investigation we believe two of the three Error issues were from a portion of the repository for test code from lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.MediaServerTest/Program.cs(line 37) and lib/libUPnP/Platinum/Build/Targets/x86-microsoft-win32-vs2010/Platinum.Managed.SsdpTest/Program.cs(line 38). If these are legitimate code then their potential security risks are within switch statements shown above. For the one Error we believe to be legitimate came from tools/EventClients/lib/c#/EventClient.cs (line 158).
 
 ![CodeExample](https://i.imgur.com/scc4dDz.png)
 
-The report states "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them. This issue can be mapped to CWE-391 (Unchecked Error Condition) stating that by ignoring expections and other error conditions this may allow attackers to go unnoticed when inducing unexpected behavior.
+The report states "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them". This issue can be mapped to CWE-391 (Unchecked Error Condition) stating that by ignoring expections and other error conditions this may allow attackers to go unnoticed when inducing unexpected behavior.
 
 In the Codacy report there is also a section on Security Monitoring that checks for issues in 19 categories such as XSS, Input Validation, File Access, etc. In the report it can be seen that all of the categories have a green checkmark indicating there were not issues found in thoses category. We are still working on understanding this part of the tool as it shows in the Security Monitoring section that there are no security issues in the Input Validation category when in fact there were 23.
 
