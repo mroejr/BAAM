@@ -6,6 +6,8 @@
 
 ## Code Review Strategy
 
+![tears](https://media2.giphy.com/media/l1KtW1rmFjTolmmQM/giphy.gif)
+
 ## Manual Code Review
 
 ## Automated Tool Findings
