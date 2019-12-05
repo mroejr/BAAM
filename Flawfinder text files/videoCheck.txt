@@ -1,0 +1,371 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining D:\Documents\GitHub\xbmc\xbmc\video\Bookmark.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\Bookmark.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\ContextMenus.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\ContextMenus.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogAudioSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogAudioSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogCMSSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogCMSSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogFullScreenInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogFullScreenInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogSubtitles.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogSubtitles.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogSubtitleSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogSubtitleSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogTeletext.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogTeletext.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoBookmarks.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoBookmarks.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoOSD.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoOSD.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\Episode.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\GUIViewStateVideo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\GUIViewStateVideo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryCleaningJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryCleaningJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryMarkWatchedJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryMarkWatchedJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryProgressJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryProgressJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryRefreshingJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryRefreshingJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryResetResumePointJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryResetResumePointJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryScanningJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\jobs\VideoLibraryScanningJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\PlayerController.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\PlayerController.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\IVideoInfoTagLoader.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoInfoTagLoaderFactory.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoInfoTagLoaderFactory.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderFFmpeg.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderFFmpeg.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderNFO.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderNFO.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderPlugin.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderPlugin.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\Teletext.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\test\TestVideoInfoScanner.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoDatabase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoDatabase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoDbUrl.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoDbUrl.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoDownloader.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoDownloader.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoTag.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoTag.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoLibraryQueue.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoLibraryQueue.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoThumbLoader.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\VideoThumbLoader.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\ViewModeSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\ViewModeSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowFullScreen.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowFullScreen.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowFullScreenDefines.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoBase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoBase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoNav.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoNav.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoPlaylist.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\GUIWindowVideoPlaylist.h
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\VideoFileItemListModifier.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\video\windows\VideoFileItemListModifier.h
+
+FINAL RESULTS:
+
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:30:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:425:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:426:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:427:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:428:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:479:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:481:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:503:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:505:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1214:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1215:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1262:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1343:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1526:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1589:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2227:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2248:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2535:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2744:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2748:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2751:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:2803:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:3249:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:3256:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:3455:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:189:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:253:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:273:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:340:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:371:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:372:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:385:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:396:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:397:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:399:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:412:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:417:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:451:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\TeletextDefines.h:457:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\VideoDatabase.cpp:7728:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\video\VideoDatabase.cpp:7729:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+D:\Documents\GitHub\xbmc\xbmc\video\VideoDatabase.cpp:7733:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1206:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1237:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1241:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1249:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1272:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1272:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1272:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1277:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1277:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1277:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\VideoInfoScanner.cpp:1928:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.cpp:872:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.cpp:1024:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.cpp:2019:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\dialogs\GUIDialogVideoInfo.cpp:2242:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderFFmpeg.cpp:195:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderFFmpeg.cpp:218:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\tags\VideoTagLoaderFFmpeg.cpp:264:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\video\Teletext.cpp:1717:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 61
+Lines analyzed = 36407 in approximately 0.72 seconds (50694 lines/second)
+Physical Source Lines of Code (SLOC) = 29178
+Hits@level = [0]   0 [1]   1 [2]  60 [3]   0 [4]   0 [5]   0
+Hits@level+ = [0+]  61 [1+]  61 [2+]  60 [3+]   0 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.09062 [1+] 2.09062 [2+] 2.05634 [3+]   0 [4+]   0 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

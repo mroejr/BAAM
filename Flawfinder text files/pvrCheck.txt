@@ -1,0 +1,302 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClientMenuHooks.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClientMenuHooks.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClients.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClients.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannel.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannel.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroup.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroup.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroupInternal.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroupInternal.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroups.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroups.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroupsContainer.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelGroupsContainer.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelNumber.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelNumber.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelsPath.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelsPath.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRRadioRDSInfoTag.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRRadioRDSInfoTag.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\channels\test\TestPVRChannelsPath.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelGuide.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelGuide.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelManager.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelManager.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelsOSD.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRChannelsOSD.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRClientPriorities.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRClientPriorities.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGroupManager.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGroupManager.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideControls.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideControls.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideSearch.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRGuideSearch.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRItemsViewBase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRItemsViewBase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRadioRDSInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRadioRDSInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRecordingInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRecordingInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRecordingSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRRecordingSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRTimerSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRTimerSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\Epg.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\Epg.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgChannelData.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgChannelData.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgContainer.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgContainer.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgDatabase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgDatabase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgInfoTag.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgInfoTag.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgSearchFilter.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgSearchFilter.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\filesystem\PVRGUIDirectory.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\filesystem\PVRGUIDirectory.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\GUIEPGGridContainer.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\GUIEPGGridContainer.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\GUIEPGGridContainerModel.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\GUIEPGGridContainerModel.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUITimerInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUITimerInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIActionListener.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIActionListener.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIActions.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIActions.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIChannelIconUpdater.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIChannelIconUpdater.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIChannelNavigator.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIChannelNavigator.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIProgressHandler.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\PVRGUIProgressHandler.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRChannelNumberInputHandler.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRChannelNumberInputHandler.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRContextMenus.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRContextMenus.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRDatabase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRDatabase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVREdl.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVREdl.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVREventLogJob.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVREventLogJob.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRItem.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRItem.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRManager.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRManager.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRPlaybackState.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRPlaybackState.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRStreamProperties.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRStreamProperties.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRThumbLoader.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\PVRThumbLoader.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecording.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecording.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecordings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecordings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecordingsPath.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\recordings\PVRRecordingsPath.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\settings\PVRSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\settings\PVRSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerInfoTag.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerInfoTag.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerRuleMatcher.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerRuleMatcher.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimers.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimers.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimersPath.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimersPath.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerType.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\timers\PVRTimerType.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIViewStatePVR.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIViewStatePVR.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRBase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRBase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRChannels.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRChannels.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRGuide.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRGuide.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRRecordings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRRecordings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRSearch.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRSearch.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimerRules.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimerRules.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimers.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimers.h
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimersBase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\pvr\windows\GUIWindowPVRTimersBase.h
+
+FINAL RESULTS:
+
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRManager.cpp:569:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRChannelNumberInputHandler.cpp:153:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRChannelNumberInputHandler.cpp:155:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRChannelNumberInputHandler.cpp:161:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRDatabase.cpp:278:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRDatabase.cpp:469:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\PVRDatabase.cpp:726:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\channels\PVRChannelsPath.cpp:77:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRClientPriorities.cpp:42:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\dialogs\GUIDialogPVRClientPriorities.cpp:95:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgDatabase.cpp:439:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:265:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:279:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:280:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:281:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:285:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:286:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:287:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:288:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:289:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:290:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:291:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:292:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:327:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:328:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:330:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:343:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:348:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:362:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:363:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:367:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:1462:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\addons\PVRClient.cpp:1721:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\epg\EpgInfoTag.cpp:421:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:96:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:97:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:1458:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:1466:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:1562:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:1570:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\pvr\guilib\guiinfo\PVRGUIInfo.cpp:1578:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 41
+Lines analyzed = 45941 in approximately 0.74 seconds (61817 lines/second)
+Physical Source Lines of Code (SLOC) = 32444
+Hits@level = [0]   1 [1]  30 [2]  10 [3]   0 [4]   1 [5]   0
+Hits@level+ = [0+]  42 [1+]  41 [2+]  11 [3+]   1 [4+]   1 [5+]   0
+Hits/KSLOC@level+ = [0+] 1.29454 [1+] 1.26372 [2+] 0.339046 [3+] 0.0308223 [4+] 0.0308223 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

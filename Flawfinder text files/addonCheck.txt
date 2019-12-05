@@ -1,0 +1,976 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Addon.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Addon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonBuilder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonBuilder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonEvents.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonExtensions.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonExtensions.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonInfoBuilder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonInfoBuilder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonType.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonType.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonInstaller.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonInstaller.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonManager.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonManager.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonProvider.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonStatusHandler.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonStatusHandler.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonSystemSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonSystemSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonVersion.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AddonVersion.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AudioDecoder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AudioDecoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AudioEncoder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\AudioEncoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\AddonDll.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\AddonDll.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\AddonInstanceHandler.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\AddonInstanceHandler.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\BinaryAddonBase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\BinaryAddonBase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\BinaryAddonManager.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\BinaryAddonManager.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\DllAddon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\BinaryAddonCache.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\BinaryAddonCache.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenuAddon.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenuAddon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenus.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenus.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\FilesystemInstaller.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\FilesystemInstaller.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\FontResource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\FontResource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GameResource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GameResource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIDialogAddonInfo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIDialogAddonInfo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIViewStateAddonBrowser.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIViewStateAddonBrowser.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIWindowAddonBrowser.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\GUIWindowAddonBrowser.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\IAddon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ImageDecoder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ImageDecoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ImageResource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ImageResource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Addon\AddonCallbacksAddon.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Addon\AddonCallbacksAddon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\AddonInterfaces.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\AddonInterfaces.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\AudioEngine.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\AudioEngine.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Filesystem.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Filesystem.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\General.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\General.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonGUIRenderingControl.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonGUIRenderingControl.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonGUIWindow.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonGUIWindow.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Button.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Button.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Edit.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Edit.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\FadeLabel.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\FadeLabel.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Image.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Image.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Label.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Label.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Progress.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Progress.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\RadioButton.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\RadioButton.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Rendering.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Rendering.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\SettingsSlider.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\SettingsSlider.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Slider.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Slider.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Spin.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\Spin.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\TextBox.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\controls\TextBox.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ContextMenu.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ContextMenu.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ExtendedProgressBar.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ExtendedProgressBar.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\FileBrowser.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\FileBrowser.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Keyboard.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Keyboard.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Numeric.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Numeric.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\OK.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\OK.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Progress.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Progress.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Select.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Select.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\TextViewer.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\TextViewer.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\YesNo.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\YesNo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\General.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\General.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\ListItem.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\ListItem.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\Window.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\Window.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Network.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Network.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\platform\android\System.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\platform\android\System.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\AudioDecoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\AudioEncoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Game.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\ImageDecoder.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Peripheral.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\PeripheralUtils.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Screensaver.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VFS.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VideoCodec.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Visualization.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\AddonBase.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\AudioEngine.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Button.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Edit.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\FadeLabel.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Image.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Label.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Progress.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\RadioButton.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Rendering.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\SettingsSlider.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Slider.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Spin.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\TextBox.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ContextMenu.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ExtendedProgress.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Keyboard.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Numeric.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\OK.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Progress.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Select.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\TextViewer.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\YesNo.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\General.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\GL.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\GLonDX.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\Shader.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\renderHelper.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\Window.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\kodi_vfs_types.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libKODI_guilib.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_addon.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_pvr.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Network.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\platform\android\System.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\StreamCodec.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\StreamCrypto.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\tools\DllHelper.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\versions.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_addon_dll.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_addon_types.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_epg_types.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_dll.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\LanguageResource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\LanguageResource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\PluginSource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\PluginSource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Repository.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Repository.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\RepositoryUpdater.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\RepositoryUpdater.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Resource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ScreenSaver.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\ScreenSaver.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Service.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Service.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\AddonSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\AddonSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\GUIDialogAddonSettings.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\GUIDialogAddonSettings.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\SettingUrlEncodedString.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\settings\SettingUrlEncodedString.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Skin.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Skin.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\test\TestAddonBuilder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\test\TestAddonDatabase.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\test\TestAddonInfoBuilder.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\test\TestAddonVersion.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\UISoundsResource.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\UISoundsResource.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Visualization.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Visualization.h
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Webinterface.cpp
+Examining D:\Documents\GitHub\xbmc\xbmc\addons\Webinterface.h
+
+FINAL RESULTS:
+
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.cpp:224:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.cpp:260:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.cpp:260:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.cpp:274:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonDatabase.h:132:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonManager.cpp:42:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\AddonManager.cpp:66:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Addon\AddonCallbacksAddon.cpp:194:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Addon\AddonCallbacksAddon.cpp:199:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\Addon\AddonCallbacksAddon.cpp:231:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1169:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1210:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1364:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1507:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1529:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1567:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\AddonBase.h:626:  [4] (format) vsprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:400:  [4] (format) vsprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\PeripheralUtils.h:127:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\PeripheralUtils.h:314:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\PeripheralUtils.h:718:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_addon.h:199:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_addon.h:236:  [4] (format) vsprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+D:\Documents\GitHub\xbmc\xbmc\addons\binary-addons\AddonDll.cpp:112:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+D:\Documents\GitHub\xbmc\xbmc\addons\AudioDecoder.cpp:87:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\AudioDecoder.cpp:88:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenuAddon.cpp:49:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\ContextMenuAddon.cpp:88:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Repository.cpp:143:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.cpp:939:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.cpp:939:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.cpp:1224:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Scraper.cpp:1225:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Skin.cpp:470:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\Skin.cpp:534:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:178:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:182:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:404:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\addoninfo\AddonExtensions.h:27:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ContextMenu.cpp:28:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ContextMenu.cpp:36:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\ContextMenu.h:43:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Progress.cpp:31:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Progress.cpp:90:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Progress.h:45:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Select.cpp:29:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Select.cpp:38:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\Select.h:43:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\TextViewer.cpp:28:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\TextViewer.cpp:36:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\dialogs\TextViewer.h:43:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\AddonBase.h:623:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:1379:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:398:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h:245:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h:246:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h:247:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h:255:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Inputstream.h:320:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\Peripheral.h:252:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VFS.h:63:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VideoCodec.h:108:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h:173:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h:241:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h:256:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h:263:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\definitions.h:296:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ContextMenu.h:78:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ContextMenu.h:125:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ContextMenu.h:172:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Progress.h:90:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Select.h:116:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\Select.h:173:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\TextViewer.h:99:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\Shader.h:44:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\Shader.h:93:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\gl\Shader.h:154:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_addon.h:195:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\libXBMC_addon.h:233:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:269:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:270:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:289:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:333:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:353:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:354:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:355:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:356:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:357:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:374:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:375:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:376:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:377:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:405:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:406:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:409:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:417:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:424:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:443:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:507:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:508:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:510:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:511:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:525:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:533:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:534:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:535:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:539:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:540:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:541:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:542:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:543:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:544:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:545:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\xbmc_pvr_types.h:546:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+D:\Documents\GitHub\xbmc\xbmc\addons\Repository.cpp:144:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\Repository.cpp:146:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\Repository.cpp:147:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:214:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:217:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\VFSEntry.cpp:412:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1619:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1628:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1637:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1646:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1655:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1664:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1673:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1682:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1704:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1713:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1722:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1761:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1770:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1779:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\GUI\AddonCallbacksGUI.cpp:1791:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\General.cpp:244:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\General.cpp:274:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\interfaces\General.cpp:299:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:717:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:758:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:798:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:838:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\Filesystem.h:883:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:157:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:227:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:308:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:566:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\General.h:669:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\AudioDecoder.h:342:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\AudioDecoder.h:343:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\PeripheralUtils.h:597:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VFS.h:65:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\addon-instance\VFS.h:577:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h:133:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h:167:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h:213:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h:259:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\ListItem.h:328:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\Window.h:276:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\Window.h:897:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Button.h:120:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Button.h:154:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Edit.h:178:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Edit.h:212:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\FadeLabel.h:112:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Label.h:106:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\RadioButton.h:122:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Slider.h:125:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\Spin.h:221:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\controls\TextBox.h:118:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ExtendedProgress.h:103:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\ExtendedProgress.h:139:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h:82:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h:117:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h:155:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h:219:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+D:\Documents\GitHub\xbmc\xbmc\addons\kodi-addon-dev-kit\include\kodi\gui\dialogs\FileBrowser.h:246:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 177
+Lines analyzed = 56349 in approximately 1.27 seconds (44244 lines/second)
+Physical Source Lines of Code (SLOC) = 34475
+Hits@level = [0]   9 [1]  63 [2]  90 [3]   1 [4]  23 [5]   0
+Hits@level+ = [0+] 186 [1+] 177 [2+] 114 [3+]  24 [4+]  23 [5+]   0
+Hits/KSLOC@level+ = [0+] 5.39521 [1+] 5.13416 [2+] 3.30674 [3+] 0.696157 [4+] 0.66715 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
