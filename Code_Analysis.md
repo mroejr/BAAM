@@ -9,7 +9,15 @@
 ![tears](https://media2.giphy.com/media/l1KtW1rmFjTolmmQM/giphy.gif)
 
 In analyzing the Kodi codebase, it felt very daunting to try to analyze the codebase as there were over 100,000 lines of code. The project was primarily written in C/C++, and it seemed there were many automated tools available to analyze the codebase. Though, with available tools, we were concerned about the ease-of-use of the tools, and if it was easy to analyze and summarize.
-Following the automated tools, the next focus would be the manual code review. (MARVIN PUT SOMEThING HERE)
+Following the automated tools, the next focus would be the manual code review.
+* Outline
+  * Define the scope of the analysis 
+    * Determine the correct static tools that will be used for the review.
+        * Have the tools review files that have been identified throughout this course.
+        * Review the reports and find commin results.
+    * Analyze manual code on a high-level and flag areas of interest. 
+        * Validate flagged areas with the tools that were ran.
+    * Compile a pull request of any code that has been determined a clear vulnerability.
 
 ## Manual Code Review
 
