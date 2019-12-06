@@ -35,7 +35,7 @@ Code that was reviewed
 
 [Codacy]( https://www.codacy.com/) is an automated application that automatically identifies issues through static code review analysis. You can get notified on security issues, code coverage, code duplication, and code complexity in every commit and pull request, directly from your current workflow.
 
-- Codacy Report for Cloned Kodi Repository [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5ce9f98dbd9a4ea1b79e0240195dc058)](https://www.codacy.com/manual/akbarber/xmbcclone?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akbarber/xmbcclone&amp;utm_campaign=Badge_Grade)
+- Codacy Report for Cloned Kodi Repository (*Click Link for Full Report*) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5ce9f98dbd9a4ea1b79e0240195dc058)](https://www.codacy.com/manual/akbarber/xmbcclone?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akbarber/xmbcclone&amp;utm_campaign=Badge_Grade)
 - Total Issues: 2544
 * Issue Categories:
   * Security: 416 
