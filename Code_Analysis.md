@@ -123,7 +123,7 @@ When using the command line tool, Flawfinder, it will list the specific file and
 
 ![Example](https://i.imgur.com/GKfVJtK.png)
 
-We had tried another tool Called SonarCloud. The tool also gave the code a passing grade. We did not have enough time to completely analyze SonarCloud’s results but we noticed that this tool showed a quite a few different CWEs than the other tools. SonarCloud results stated that there were no vulnerabilities but there were 225 “Security Hotspots” meaning there are not necessarily issues but they need to be reviewed to make sure there are not vulnerabilities. This does, in our opinion, like up with the other tools as most of the hits were warnings that needed to be reviewed, not straight forward vulnerabilities. 
+We had tried another tool Called SonarCloud. The tool also gave the code a passing grade. We did not have enough time to completely analyze SonarCloud’s results but we noticed that this tool showed a quite a few different CWEs than the other tools. SonarCloud results stated that there were no vulnerabilities but there were 225 “Security Hotspots” meaning there are not necessarily issues but they need to be reviewed to make sure there are not vulnerabilities. This does, in our opinion, link up with the other tools as most of the hits were warnings that needed to be reviewed, not straight forward vulnerabilities. 
 
 ![SonarCloudgrade](https://i.imgur.com/GmBFmqz.png)
 
