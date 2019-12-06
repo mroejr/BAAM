@@ -128,10 +128,7 @@ We had tried another tool Called SonarCloud. The tool also gave the code a passi
 ![SonarCloudgrade](https://i.imgur.com/GmBFmqz.png)
 
 
-![SonarCloud](https://i.imgur.com/DIhu535.png) ![SonarCoudresults](https://i.imgur.com/REbXvFk.png)
-
-
-
+![SonarCloud](https://i.imgur.com/DIhu535.png)
 
 
 With the information provided from the tools we were able to narrow down a few security weakness to focus our manual review to. The top three weakness we found were CWE-126 (Buffer Over-read), CWE-120 (Buffer Overflow), and CWE-20 (Improper Input Validation).
