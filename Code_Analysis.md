@@ -21,6 +21,12 @@ Following the automated tools, the next focus would be the manual code review.
 
 ## Manual Code Review
 
+Code that was reviewed
+ * [PlayList](https://github.com/xbmc/xbmc/blob/master/xbmc/playlists/PlayList.cpp)
+ * [PVR](https://github.com/xbmc/xbmc/blob/master/xbmc/pvr/PVRDatabase.cpp)
+ * [Application](https://github.com/xbmc/xbmc/blob/master/xbmc/Application.cpp)
+
+
 ## Automated Tool Findings
 
 ### Codacy
