@@ -30,14 +30,7 @@ Following the automated tools, the next focus would be the manual code review.
 [Codacy]( https://www.codacy.com/) is an automated application that automatically identifies issues through static code review analysis. You can get notified on security issues, code coverage, code duplication, and code complexity in every commit and pull request, directly from your current workflow.
 
 - Codacy Report for Cloned Kodi Repository (*Click link for full report*) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a6958fd1f04bc98d8e581ce786f754)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akbarber/clonexbmc&amp;utm_campaign=Badge_Grade)
-- Total Issues: 2544
-- Issue Categories:
-  - Security: 416
-  - Error Prone: 348
-  - Code Style: 1506
-  - Compatibility: 1
-  - Unused Code: 3
-  - Performance: 270
+![CodacyResults](https://i.imgur.com/HYeamvW.png)
 - Overall code grade: A
 - Levels for Security Issues
   - Info: The least critical issue type will appear as **blue** (in the report link); for example code style issues are shown this way.
@@ -122,6 +115,17 @@ In using Flawfinder, there were troubles in trying to analyze the entire Kodi co
 When using the command line tool, Flawfinder, it will list the specific file and line that a potential vulnerability was found, along with a the vulnerability's details. Below is an example of this after running the python script.
 
 ![Example](https://i.imgur.com/GKfVJtK.png)
+
+We had tried another tool Called SonarCloud. The tool also gave the code a passing grade. We did not have enough time to completely analyze SonarCloud’s results but we noticed that this tool showed a quite a few different CWEs than the other tools. SonarCloud results stated that there were no vulnerabilities but there were 225 “Security Hotspots” meaning there are not necessarily issues but they need to be reviewed to make sure there are not vulnerabilities. This does, in our opinion, like up with the other tools as most of the hits were warnings that needed to be reviewed, not straight forward vulnerabilities. 
+
+![SonarCloudgrade](https://i.imgur.com/GmBFmqz.png)
+
+
+![SonarCloud](https://i.imgur.com/DIhu535.png) ![SonarCoudresults](https://i.imgur.com/REbXvFk.png)
+
+
+
+
 
 With the information provided from the tools we were able to narrow down a few security weakness to focus our manual review to. The top three weakness we found were CWE-126 (Buffer Over-read), CWE-120 (Buffer Overflow), and CWE-20 (Improper Input Validation).
 
