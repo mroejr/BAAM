@@ -5,14 +5,14 @@
 
 In analyzing the Kodi codebase, it felt very daunting to try to analyze the codebase as there were over 100,000 lines of code. The project was primarily written in C/C++, and it seemed there were many automated tools available to analyze the codebase. Though, with available tools, we were concerned about the ease-of-use of the tools, and if it was easy to analyze and summarize.
 Following the automated tools, the next focus would be the manual code review.
-* Outline
-  * Define the scope of the analysis 
-    * Determine the correct static tools that will be used for the review.
-        * Have the tools review files that have been identified throughout this course.
-        * Review the reports and find commin results.
-    * Analyze manual code on a high-level and flag areas of interest. 
-        * Validate flagged areas with the tools that were ran.
-    * Compile a pull request of any code that has been determined a clear vulnerability.
+
+* Define the scope of the analysis 
+ * Determine the correct static tools that will be used for the review.
+  * Have the tools review files that have been identified throughout this course.
+  * Review the reports and find commin results.
+ * Analyze manual code on a high-level and flag areas of interest. 
+  * Validate flagged areas with the tools that were ran.
+ * Compile a pull request of any code that has been determined a clear vulnerability.
 
 ## Manual Code Review
 
@@ -146,7 +146,11 @@ We had tried another tool Called SonarCloud. The tool also gave the code a passi
 
 With the information provided from the tools we were able to narrow down a few security weakness to focus our manual review to. The top three weakness we found were CWE-126 (Buffer Over-read), CWE-120 (Buffer Overflow), and CWE-20 (Improper Input Validation).
 
-## OSS Pull Requests???
+## OSS Pull Request
+
+The team has open an issue on the Kodi form, because discussion of your code is the first step in getting a pull request completed. This page will be updated as we walk through the steps with Kodi.
+
+
 
 ## Team Reflection and GitHub Link
 
