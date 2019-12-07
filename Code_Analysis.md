@@ -7,12 +7,12 @@ In analyzing the Kodi codebase, it felt very daunting to try to analyze the code
 Following the automated tools, the next focus would be the manual code review.
 
 * Define the scope of the analysis 
- * Determine the correct static tools that will be used for the review.
-  * Have the tools review files that have been identified throughout this course.
-  * Review the reports and find commin results.
- * Analyze manual code on a high-level and flag areas of interest. 
-  * Validate flagged areas with the tools that were ran.
- * Compile a pull request of any code that has been determined a clear vulnerability.
+  * Determine the correct static tools that will be used for the review.
+    * Have the tools review files that have been identified throughout this course.
+    * Review the reports and find commin results.
+  * Analyze manual code on a high-level and flag areas of interest. 
+    * Validate flagged areas with the tools that were ran.
+  * Compile a pull request of any code that has been determined a clear vulnerability.
 
 ## Manual Code Review
 
@@ -148,9 +148,7 @@ With the information provided from the tools we were able to narrow down a few s
 
 ## OSS Pull Request
 
-The team has open an issue on the Kodi form, because discussion of your code is the first step in getting a pull request completed. This page will be updated as we walk through the steps with Kodi.
-
-
+The team will open an issue on the Kodi form, because discussion of your code is the first step in getting a pull request completed. This page will be updated as we walk through the steps with Kodi. The pull request will involve both CWE 120 and CWE 20
 
 ## Team Reflection and GitHub Link
 
