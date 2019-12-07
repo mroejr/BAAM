@@ -25,7 +25,7 @@ Code that was reviewed
  * [PlayList](https://github.com/xbmc/xbmc/blob/master/xbmc/playlists/PlayList.cpp)
  * [PVR](https://github.com/xbmc/xbmc/blob/master/xbmc/pvr/PVRDatabase.cpp)
  * [Application](https://github.com/xbmc/xbmc/blob/master/xbmc/Application.cpp)
-
+These are the code sections that we have done most of our project with and flet that we would have a better understanding of walking through this code over any other sections. Theses sections are written in C++ and having an understanding of C and staying with the code that we've seen a few times in the project is how we moved foward. The code is listed in the order that it was reviewed and the scope of the review is to look for CWEs that were.
 
 ## Automated Tool Findings
 
