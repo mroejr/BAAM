@@ -26,7 +26,9 @@ Code that was reviewed
  * [PVR](https://github.com/xbmc/xbmc/blob/master/xbmc/pvr/PVRDatabase.cpp)
  * [Application](https://github.com/xbmc/xbmc/blob/master/xbmc/Application.cpp)
  
-These are the code sections that we have done most of our project with and flet that we would have a better understanding of walking through this code over any other sections. Theses sections are written in C++ and having an understanding of C and staying with the code that we've seen a few times in the project is how we moved foward. The code is listed in the order that it was reviewed and the scope of the review is to look for CWEs that were.
+These are the code sections that we have done most of our project with and flet that we would have a better understanding of walking through this code over any other sections. Theses sections are written in C++ and having an understanding of C and staying with the code that we've seen a few times in the project is how we moved foward. The code is listed in the order that it was reviewed and the scope of the review is to look for CWEs that were discussed and reviewed in class.
+
+[PlayList](https://github.com/xbmc/xbmc/blob/master/xbmc/playlists/PlayList.cpp) Atfer reviewing the code for this section there are two CWEs that have a clear presence in a few parts of the code. In the code in this section there are no input validation occurring anywhere that would have me believe that the CWE 20 would be violated in this section. In the same parts of the code that I feel have the CWE 20, I would say the same would need to be said about the CWE 120. There is no code that addresses bounds in any of the arrays that are implemented in the code. Leading me to believe that CWE 120 is also violated in the same sections of the code.
 
 ## Automated Tool Findings
 
