@@ -150,7 +150,7 @@ With the information provided from the tools we were able to narrow down a few s
 
 The team will open an issue on the Kodi form. A issue was opened and checking to make sure it was the correct form turned out not to be a good idea and a Kodi member said No to our input. Below you can see the issue.
 
-![Uploading Screen Shot 2019-12-11 at 12.46.21 PM.png…]()
+<img width="1167" alt="Screen Shot 2019-12-11 at 12 46 21 PM" src="https://user-images.githubusercontent.com/22432070/70654253-8b00c680-1c1b-11ea-9562-96f9f2e37fc8.png">
 
 ## Team Reflection and GitHub Link
 
